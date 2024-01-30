@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color: rgb(205, 232, 255);
+}
+
+.cotinar{
+    font-family:'Gill Sans',Calibri, 'Trebuchet MS', sans-serif ;
+    
+   box-sizing:border-box;
+background-color: white;
+
+width: 680px;
+height: 800px;
+padding: 20px;
+margin: auto;
+margin-top:50px;
+
+}
+.title{
+ text-align: center;
+ font-size: 50px;
+}
+
+.frist{
+    padding-top: 20px;
+}
+
+.p1{
+    padding-top: 20px;
+}
