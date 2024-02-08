@@ -1,24 +1,34 @@
-*{
+*{margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-body{
-   background-color: rgb(205, 232, 255);
+body{background-color: #e3efff;
+    height: 80vw;
+
+}
+
+.form>svg{
+    width: 200px;
+height: 300px;    
+transform: translate(79.2vw, 0px)
+
+
+
 }
 
 .cotinar{
     font-family:'Gill Sans',Calibri, 'Trebuchet MS', sans-serif ;
     
    box-sizing:border-box;
-background-color: white;
+   background-color: rgb(255, 255, 255);
 
 width: 680px;
-height: 800px;
+height: 750px;
 padding: 20px;
 margin: auto;
-margin-top:50px;
+margin-top:5px;
 
 }
 .title{
@@ -32,4 +42,9 @@ margin-top:50px;
 
 .p1{
     padding-top: 20px;
+}
+
+.form2>svg{
+   transform: translate(-34.3vw,-135px)
+ 
 }
