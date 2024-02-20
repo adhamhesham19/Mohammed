@@ -1,0 +1,442 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#ECF4FF;;
+height:100vw;
+    
+}
+
+nav{position: sticky;}
+
+aside{position: sticky;}
+
+a{
+        text-decoration: none;
+
+}
+.SmartRx-bar{
+    background-color: white;
+    padding: 10px;
+}
+
+.SmartRx_board{
+    position: relative;
+}
+.s-link{
+    text-decoration: none;
+
+}
+
+.searchtap{
+    display: inline;
+}
+
+.search{
+    background-color:#ECF4FF;;
+    padding: 10px;
+    width: 340px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    transform: translate(15vw,-1.5vw);
+    border: 0;
+    
+    
+}
+
+.search-button{ 
+    transform: translate(12.3vw,-1.5vw);
+    background-color: white;
+    position: relative;
+    height:40px;
+    width: 40px;
+    padding: 10px;
+    color: #4994FF;
+    font-size: 17px;
+    border: 0;
+    border-radius: 10px;
+    
+
+}
+
+.icon1>svg{
+    transform: translate(25vw,-1.5vw);
+    position: relative;
+}
+.icon2>svg{
+    transform: translate(27vw,-1.3vw);
+position: relative;
+}
+.icon3>svg{
+        transform: translate(29vw,-1.3vw);
+position: relative;
+color: #B7B7B7;
+width: 24.68px;
+height: 24.68px;
+}
+
+.lang-select>select{
+    transform: translate(30.3vw,-1.6vw);
+    border: white;
+    position: relative;
+    color:#969696 ;
+    
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+ ul>a:hover{
+    background-color:  #2a599b;
+ } 
+.s-aside{ 
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    height: 90vw;
+}
+
+.aside_li0>a{
+    font-family: Gilroy;  
+    font-size: 25px;
+    color: black;
+}
+
+.aside-foot{
+    position: relative;
+    top: 64vw;
+    color: #B7B7B7;
+}
+
+.fristpag{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;  
+    position: relative;
+    width: 753px;
+    height: 236px;
+    
+       transform: translate(5vw,0vw);
+       padding: 10px;
+
+}
+
+.more-button{
+    width: 120px;
+    height: 50px;
+    border-radius: 16px;
+    border: 0;
+    background-color: #E3EFFF;
+    color: #0038FF;
+    font-size: 18px;
+transform: translate(-21.2vw,9vw);
+
+}
+
+.news{
+    width: 60vw;
+    height: 40vw;
+    display: inline;
+    position: absolute;
+    top:10vw;
+    left: 20vw;
+   
+}
+
+.news_2>svg{
+    position: relative;
+    left: -9vw;
+    top:1vw;
+  
+}
+
+.new_3>svg{
+position: relative;
+top: -9vw;
+left:30vw ;
+}
+
+.new_4>svg{
+    position: relative;
+    top: -3vw;
+    left:-1vw ;
+}
+
+.secondpag{
+    padding: 15px;
+    margin-left:95px;
+    background-color: white;
+    width: 366px;
+    height: 235px;
+}
+
+.Appointments-img{
+position: relative;
+left: 7.2vw;
+}
+.secondpag>p{
+
+    text-align: center;
+}
+
+.Appointments-word{    color: #667085;
+        text-align: center;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.Appointments-num{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Appointments-percent{
+        text-align: center;
+    font-size: 18px;
+    color: #069A6E;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.therdpag{padding: 10px;
+    position: relative;
+    background-color: white;
+    width: 366px;
+    height: 235px;top: -12.3vw;
+    left: 25vw;
+}
+
+.Appointments-Follow_Up{
+    position: relative;
+    left: 7.2vw;
+
+}
+
+.Appointments_Follow_Up-word{
+    color: #667085;
+        text-align: center;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Servicespag{
+    padding: 20px;
+    width: 284px;
+    height: 30vw;
+    background-color: white;
+    position: relative;
+left: 83.5vw;
+top: -83.9vw;    
+}
+
+.title{
+    color: #053273;
+        font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Medical-News{
+    position: relative;
+    width: 236px;
+    height: 151px;
+    border: 1px solid #D0DEFB ;
+    border-radius: 16px;  
+    padding: 24px;
+}
+
+.info-button{
+    position: relative;
+    height: 32px;width:32px;
+    border-radius: 24px;
+   border: 1px solid #0F6EF50F;
+   padding: 8px;
+   gap: 10px;
+   left: 7vw;
+   top: -5vw;
+
+
+}
+
+.info-button2{
+    position: relative;
+    height: 32px;width:32px;
+    border-radius: 24px;
+   border: 1px solid #0F6EF50F;
+   padding: 8px;
+   gap: 10px;
+   left: 7vw;
+   top: -4vw;
+
+}
+ .target{
+    position: relative;
+    height: 20vw;
+    width: 20vw;
+    padding: 20px;
+    background-color: white;
+    left: 25vw;
+    top: -85vw;
+}
+/*******************************************************************************************************************/
+.tar-word{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tar-word2{
+    color: #969696;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    
+.percent{
+    position: relative;
+    left: 2vw;
+}
+
+.percent-word{
+    text-align: center;
+    color: #667085;font-size: 18px;
+}
+
+.percent-dolar{
+    color: #1A1C21;
+}
+
+
+.frist-rise{
+    position: relative;
+    left: 2vw;
+    top: 1vw;
+}
+
+.arrow-title{
+    position: relative;
+    left: 0.3vw;
+    color: #667085;font-size: 13px;
+}
+
+.arrow-rise{
+    width: 600;
+    font-size: 20px;
+    color: #1A1C21;
+}
+
+.green-arrow{
+    position: relative;
+    top: -1.1vw;
+    left: 2.3vw;
+}
+.arrow-title2{
+        position: relative;
+        top: -2vw;
+    left: 7.5vw;
+    color: #667085;font-size: 13px;
+}
+
+.arrow-down{
+           position: relative;
+        top: -2vw;
+    left: 7.5vw;    font-size: 20px;
+
+}
+
+.red-arrow{
+        position: relative;
+    top: -3vw;
+    left: 9.7vw;
+}
+
+.arrow-title3{
+    position: relative;
+    top: -5vw;
+    left: 13vw;
+    color: #667085;font-size: 13px; 
+}
+
+.arrow-rise2{
+    position: relative;
+    top: -5vw;
+    left: 12.7vw;font-size: 20px;
+}
+
+.green-arrow2{
+       position: relative;
+    top: -6vw;
+    left: 15.2vw;
+}
+/***********************************************************************************************************/
+.Statistic{
+    position: relative;
+background-color: white;
+width: 695px;
+height: 376px;
+top: -105vw;
+left: 46.5vw;
+padding: 10px;
+
+}
+.Statistic>h1{
+    color: #1A1C21;
+}
+.Statistic>h4{
+    color: #667085;
+
+}
+
+.Revenue-point{
+    position: relative;
+   top: -1.75vw;
+    left:12vw ;
+}
+.cost-point{
+
+    position: relative;
+  left: 16.2vw;  top:-2.8vw ;
+   
+}
+
+.Graph{
+   position: relative;
+   top: -10vw; 
+   left: 3vw;
+}
+
+.numers{
+    position: relative;
+    top: 2vw;
+    
+}
+
+.Upcoming-Appointments{
+    position: relative;
+
+padding: 10px;    padding-left:30px ;
+    top: -100vw;
+background-color: white;
+width:60vw;
+height: 25vw;
+left: 25vw;
+}
+.title0{position: relative;
+    transform: translate(0vw,-2.5vw);
+}
+
+
+.Appointments-table{
+    position: relative;
+    top: -1.100vw;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 15px;
+
+}
+.id{position: relative;
+    top: -2.2vw;
+}
