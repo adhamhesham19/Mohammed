@@ -150,7 +150,7 @@ height: 100%;
 flex-direction:initial; 
     background-color: white;  
     position: relative;
-    width: 753px;
+    width: 840px;
 
     
        transform: translate(5vw,0vw);
@@ -168,7 +168,7 @@ flex-direction:initial;
     background-color: #E3EFFF;
     color: #0038FF;
     font-size: 18px;
-transform: translate(-13vw, 7.8vw);
+transform: translate(-12vw, 7vw);
 }
 
 
