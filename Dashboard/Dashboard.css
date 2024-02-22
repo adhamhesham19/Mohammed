@@ -11,6 +11,31 @@ height:100vw;
     
 }
 
+
+.main-container{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-width: 30%;
+}
+
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+width: 80%;
+
+}
+
+
 nav{position: sticky;}
 
 aside{position: sticky;}
@@ -98,7 +123,6 @@ ul {
 .s-aside{ 
     padding: 20px;
     background-color: white;
-    width: 300px;
     height: 90vw;
 }
 
@@ -115,61 +139,58 @@ ul {
 }
 
 .fristpag{
+    position: relative;
     display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
+flex-direction:initial; 
     background-color: white;  
     position: relative;
     width: 753px;
-    height: 236px;
+
     
        transform: translate(5vw,0vw);
        padding: 10px;
 
 }
-
+.fristpag>p{display: flex; height:110px;}
 .more-button{
-    width: 120px;
+    width: 160px;
     height: 50px;
     border-radius: 16px;
     border: 0;
     background-color: #E3EFFF;
     color: #0038FF;
     font-size: 18px;
-transform: translate(-21.2vw,9vw);
-
+transform: translate(-13vw, 7.8vw);
 }
 
-.news{
-    width: 60vw;
-    height: 40vw;
-    display: inline;
-    position: absolute;
-    top:10vw;
-    left: 20vw;
-   
+
+.news-section{
+display: flex;
+width: 100%;
+
+}
+.news-section .left-div{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
 }
 
-.news_2>svg{
+.news-section .right-div{
+display: flex;
+width: 25%;
+flex-direction: column;
+justify-content: flex-start;
+    align-items: flex-end;
+    text-align: justify;
+    padding: 20px;
+    background-color: white;
     position: relative;
-    left: -9vw;
-    top:1vw;
-  
-}
-
-.new_3>svg{
-position: relative;
-top: -9vw;
-left:30vw ;
-}
-
-.new_4>svg{
-    position: relative;
-    top: -3vw;
-    left:-1vw ;
 }
 
 .secondpag{
+    display: flex;
+    flex-direction: column;
+    position: relative;
     padding: 15px;
     margin-left:95px;
     background-color: white;
@@ -177,11 +198,13 @@ left:30vw ;
     height: 235px;
 }
 
+
 .Appointments-img{
 position: relative;
 left: 7.2vw;
 }
 .secondpag>p{
+    position: relative;
 
     text-align: center;
 }
@@ -205,12 +228,17 @@ left: 7.2vw;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.therdpag{padding: 10px;
+.therdpag{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
     position: relative;
     background-color: white;
     width: 366px;
-    height: 235px;top: -12.3vw;
-    left: 25vw;
+    height: 235px;
+    align-self: flex-end;
+
+
 }
 
 .Appointments-Follow_Up{
@@ -226,20 +254,12 @@ left: 7.2vw;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.Servicespag{
-    padding: 20px;
-    width: 284px;
-    height: 30vw;
-    background-color: white;
-    position: relative;
-left: 83.5vw;
-top: -83.9vw;    
-}
 
-.title{
+.title{position: relative;
     color: #053273;
         font-size:20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
 }
 
 .Medical-News{
@@ -295,7 +315,18 @@ top: -83.9vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-    
+ .target-section{
+    display: flex;
+    flex-direction: row;
+ } 
+
+.target-section .left-tar-div{
+    width: 30%;
+}
+
+
+
+
 .percent{
     position: relative;
     left: 2vw;
@@ -419,13 +450,12 @@ padding: 10px;
     position: relative;
 
 padding: 10px;    padding-left:30px ;
-    top: -100vw;
 background-color: white;
 width:60vw;
 height: 25vw;
-left: 25vw;
 }
-.title0{position: relative;
+.title0{
+    position: relative;
     transform: translate(0vw,-2.5vw);
 }
 
@@ -437,6 +467,7 @@ left: 25vw;
     font-size: 15px;
 
 }
-.id{position: relative;
+.id{
+    position: relative;
     top: -2.2vw;
 }
