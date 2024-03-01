@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    width: 270vw;
+
+}
+
+body{
+    background-color:#ECF4FF;;
+
+    height: 100%;
+    width: 100%;
+}
+
+
+ul{
+    list-style-type: none;
+
+}
+
+.s-link{
+    display: flex;
+    position: relative;
+}
+
+.search-section{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.searchtap{
+    transform: translate(10vw,4vw);
+
+}
+
+.search{
+        position: absolute;
+    width: 65vw;
+    border: 0;
+    padding: 2px;
+}
+.search-button{
+    position: relative;
+    border: 0;
+    border-radius:2.5px ;
+    transform:translate(60vw,0vw);
+    background-color: white;
+    color: #7aaef7;
+}
+/***************************************************************************************************************
+*****************************************************************************************************/
+
+.icon1{
+    position: relative;
+    transform:translate(48vw,-13.5vw);
+    width: 20px;
+}
+
+.icon2{
+    position: relative;
+    transform: translate(55vw,-20vw);
+    width: 20px;    
+}
+
+.icon3{
+        position: relative;
+    transform: translate(64vw,-28vw);
+    width: 20px; 
+    color: #B7B7B7;   
+}
+.icon3>svg{
+    position: relative;
+color: #B7B7B7;
+width: 24.68px;
+height: 24.68px;
+}
+
+.lang-select>select{
+    border: 0;
+
+}
+.lang-select{
+    position: relative;
+    transform: translate(74vw,-35vw);
+    border: 0;
+}
+
+.news-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.news-section .left-div{
+    display: flex;
+    flex-direction: column;
+}
+.news_2>svg{
+    width: 100px;
+    height: 110px
+}
+.news_2{
+    width: 100px;
+    height: 110px;
+    transform: translate(-46vw, -2vw);
+}
+
+.fristpag{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    height: 50vw
+}
+.fristpag>p{
+    width: 65vw;
+}
+.more-button{
+    width: 160px;
+    height: 30px;
+    border-radius: 16px;
+    border: 0;
+    background-color: #E3EFFF;
+    color: #0038FF;
+    font-size: 18px;
+    transform: translate(-45vw,32vw);
+}
+.new_4{
+    transform: translate(-70vw, 20vw);
+    width: 20vw;
+    height: 25vw;
+}
+.new_4>svg{
+    width: 85px;
+}
+
+.two-divs-in-one{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.secondpag{
+    background-color: white;
+    width: 50vw;
+    padding: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.therdpag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        background-color: white;
+    width: 50vw;
+    padding: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 6px;
+}
+
+.right-div{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    left: 50px;
+    position: relative;
+}
+
+.title{
+    position: relative;
+    color: #053273;
+        font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.Medical-News{
+    position: relative;
+    width: 236px;
+    height: 151px;
+    border: 1px solid #D0DEFB ;
+    border-radius: 16px;  
+    padding: 24px;
+}
+
+.info-button{
+    position: relative;
+    height: 32px;width:32px;
+    border-radius: 24px;
+   border: 1px solid #0F6EF50F;
+   padding: 8px;
+   gap: 10px;
+   left: 45vw;
+   top: -20vw;
+
+
+}
+
+.info-button2{
+    position: relative;
+    height: 32px;width:32px;
+    border-radius: 24px;
+   border: 1px solid #0F6EF50F;
+   padding: 8px;
+   gap: 10px;
+   left: 45vw;
+   top: -15vw;
+
+}
+
+.left-tar-div{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    height: 95vw;
+}
+
+.left-tar-div>p{
+    display: flex;
+    flex-direction: row;
+}
+/*********************************************************************************************
+************************************************************************************************/
+.percent{
+    position: relative;
+    left: 5vw;
+
+}
+.percent-word{
+    text-align: center;
+    color: #667085;font-size: 18px;
+}
+
+.percent-dolar{
+    color: #1A1C21;
+}
+
+
+.frist-rise{
+    position: relative;
+    left: 2vw;
+    top: 1vw;
+}
+
+.second-down{
+    position: relative;
+    top: -13vw;
+    left: 12vw;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:initial;
+    justify-content: flex-start;
+}
+.arrow-title{
+    position: relative;
+    left: 0.3vw;
+    color: #667085;font-size: 13px;
+}
+
+.arrow-rise{
+    width: 600;
+    font-size: 20px;
+    color: #1A1C21;
+}
+
+.green-arrow{
+    position: relative;
+    top: -5.5vw;
+    left: 12vw;
+}
+.arrow-title2{
+        position: relative;
+        top: -2vw;
+    left: 7.5vw;
+    color: #667085;font-size: 13px;
+}
+
+.arrow-down{
+           position: relative;
+        top: -2vw;
+    left: 7.5vw;    font-size: 20px;
+
+}
+
+.red-arrow{
+        position: relative;
+        top: -7vw;
+        left: 19vw
+}
+
+.arrow-title3{
+    position: relative;
+    top: -5vw;
+    left: 13vw;
+    color: #667085;font-size: 13px; 
+}
+
+.arrow-rise2{
+    position: relative;
+    top: -5vw;
+    left: 12.7vw;font-size: 20px;
+}
+
+.green-arrow2{
+       position: relative;
+       top: -10.5vw;
+       left: 26vw;
+}
+
+.second-rise{
+    position: relative;
+    left: 25vw;
+    top: -26vw;
+}
+/***************************************************************************************************************************************************/
+
+.right-tar-div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+     height: 61vw;
+     padding: 6px;
+     margin-bottom: 10px;
+
+}
+.point1{
+    width: 30vw;
+    position: relative;
+
+
+}
+
+.Graph{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -47vw;
+    left: 8vw;
+}
+
+.Graph>svg{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 19.5pc;
+}
+
+.appointments-section{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+}
