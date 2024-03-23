@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#ECF4FF;
+    direction: rtl;
+}
+
+.Dash-container{
+    display: flex;
+    height: 100%;
+}
+
+.nav-container{
+    height: 1302px;
+    width: 20%; 
+}
+
+
+.aside-bar{
+    position: relative;
+    display: flex;
+    background-color: white;
+    height: 1306px;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #000001;
+}
+
+.aside-foot{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    color: #B7B7B7;
+
+    text-align: left;
+}
+
+.menu{
+    height: 2000px
+}
+
+/**************************************************************************************************************
+***************************************************************************************************************/
+.search-section{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 79.1vw;
+    height: 88px; padding: 10px;
+}
+
+.search-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+
+}
+
+.searchtap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+position: relative;
+border: 0;
+border-radius: 8px;
+background-color: #F6F6F8;
+padding: 3px;
+height: 40px;
+width: 313px;
+}
+
+
+.search-button{
+    border: 0;
+    background-color: #F6F6F8;
+    height: 40px;
+    width: 30px;
+    border-radius: 8px;
+}
+
+
+#language{
+    border: 0 white;
+    border-radius: 2px;
+}
+
+.search-2{
+    display: flex;
+    flex-direction: row;
+    justify-self:flex-end;
+}
+/********************************************************************************************************************************
+*********************************************************************************************************************************/
+.news{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.news-section{
+    padding: 10px;
+    width: 1322px;
+    height: 520px;
+font-family: 'Changa';
+}
+
+.patient-div{
+    padding: 10px;
+    background-color: white;
+    width: 15vw;
+    margin:25px ;
+}
+
+
+.news-f{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.patient-prisent{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.patient-prisent3{
+width: 68px;
+height: 27px;
+    background-color: #017EF51A;
+    padding-top:5px ;
+    padding-right: 7px;
+    color: #017ef5bf;
+
+}
+.new-appointment-div{
+    text-wrap: nowrap;
+    padding: 10px;
+    background-color: white;
+    margin: 25px;
+    width: 15vw;
+}
+
+.new-appointment-div>p{
+    text-wrap: nowrap;
+}
+
+.adds-div{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    width:550px;
+    height: 105px;
+    margin: 25px;
+}
+
+.p-head{
+margin-right: 20px;
+    font-size: 28px;
+    height: 40px;
+}
+
+.p-sub{
+    
+    transform: translate(-18px, 7px);
+    height: 50px;
+font-size: 13px;
+}
+/*****************************************************************************************************
+******************************************************************************************************/
+
+.Doctors{
+display: flex;
+width: 1000px;
+justify-content: space-around;
+
+}
+
+.D-saad{
+width: 283.86px;
+height: 308.81px;
+background-color: white;
+border-radius: 14.32px;
+font-size: 10.55px;
+
+}
+.D-saad>img{
+    width: 283.86px;
+    height: 215.53px;
+border-top-left-radius: 14.32px;
+border-top-right-radius: 14.32px;
+
+}
+
+.D-saad-informaition{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+
+.D-saad-informaition3{
+    font-size: 12.48px;
+    text-align: right;
+    color: #202224;
+
+}
+.D-saad-state{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.D-saad-state2{
+    color: white;
+    background-color: #D83A52;
+    width: 50px;
+height: 25px;
+border-radius: 3.12px;
+gap: 6.24px;
+padding: 5px;
+}
+
+.D-saad-state3{
+    font-size: 12.48px;
+    color: #2022246e;
+
+}
+/***********************************************************************************************************
+************************************************************************************************************/
+
+.D-Ahmad{
+    width: 283.86px;
+    height: 308.81px;
+    background-color: white;
+    border-radius: 14.32px;
+    font-size: 10.55px;
+    
+    }
+    .D-Ahmad>img{
+        width: 283.86px;
+        height: 215.53px;
+    border-top-left-radius: 14.32px;
+    border-top-right-radius: 14.32px;
+    
+    }
+    
+    .D-Ahmad-informaition{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    
+    
+    .D-Ahmad-informaition3{
+        font-size: 12.48px;
+        text-align: right;
+        color: #202224;
+    
+    }
+    .D-Ahmad-state{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    
+    .D-Ahmad-state2{
+        color: white;
+        background-color: #258750;
+        width: 50px;
+    height: 25px;
+    border-radius: 3.12px;
+    gap: 6.24px;
+    padding: 6px;
+    }
+    
+    .D-Ahmad-state3{
+        font-size: 12.48px;
+        color: #2022246e;
+    
+    }
+
+
+/*******************************************************************************************************************
+********************************************************************************************************************/
+.D-Asmaa{
+    width: 283.86px;
+    height: 308.81px;
+    background-color: white;
+    border-radius: 14.32px;
+    font-size: 10.55px;
+    
+    }
+    .D-Asmaa>img{
+        width: 283.86px;
+        height: 215.53px;
+    border-top-left-radius: 14.32px;
+    border-top-right-radius: 14.32px;
+    
+    }
+    
+    .D-Asmaa-informaition{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    
+    
+    .D-Asmaa-informaition3{
+        font-size: 12.48px;
+        text-align: right;
+        color: #202224;
+    
+    }
+    .D-Asmaa-state{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    
+    .D-Asmaa-state2{
+        color: white;
+        background-color: #4994FF;
+        width: 50px;
+    height: 25px;
+    border-radius: 3.12px;
+    gap: 6.24px;
+    padding: 6px;
+    }
+    
+    .D-Asmaa-state3{
+        font-size: 12.48px;
+        color: #2022246e;
+    
+    }
+/*******************************************************************************************************************
+********************************************************************************************************************/
+.schedule{
+    display: flex;
+    height: 665px;
+    width: 1322px;
+    padding: 10px;
+}
+
+.schedule-table{
+    width: 973px;
+    height: 771px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 15px;
+
+}
+.schedule-tab{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: 652px;
+}
+
+.schedule-title-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.new-paitiont{
+    width: 150px;
+    height: 46px;
+    background-color: #017EF5;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+
+}
+
+.new-Date{
+    width: 105.27px;
+    height: 46px;
+    border: 0;
+    border-radius: 8.07px;
+    background-color: rgba(1, 126, 245, 0.1);
+    color: rgba(1, 126, 245, 1);
+
+}
+
+/*******************************************************************************************************************
+********************************************************************************************************************/
+
+@media (min-width:0px) and (max-width:375px){
+    html{
+        width: 1474px;
+        height: 3333px; 
+    }
+    .page-container{
+        height: 3342px;
+    width: 1466px;
+}
+    
+    .s-link>svg{
+width: 67px;
+    }
+.search-section{
+    width: 100%;
+    height: 3%;
+}
+.search-2{
+    height: 30px;
+    transform: translate(250px, 50px);
+    justify-content: space-between;
+}
+
+
+
+.nav-container{
+    display: none;
+}
+.search-bar{
+    justify-content: center;
+}
+
+.news-section{
+    width: 1319px;
+    height: 2461px;
+}
+
+.news-f{
+    margin-bottom: 20px;
+    width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.patient-div{
+    width: 25%;
+}
+.new-appointment-div{
+    width: 25%;
+}
+
+/*************************************************************************************
+**************************************************************************************/
+.Doctors{
+    margin-top: 120px;
+    flex-wrap: wrap;
+    flex-direction: column;
+padding-right: 150px;
+
+}
+
+.D-saad{
+    width: 60%;
+    font-size: 20px;
+    height: 590px;
+    margin-bottom: 25px;
+}
+.D-saad>img{
+    width: 100%;
+    height: 400px;
+    max-width: 1000px;
+    max-height: 1000px;
+
+}
+.D-saad-informaition3{
+    font-size: 30px;
+}
+.D-saad-informaition2{
+font-size: 29px;
+}
+
+.D-saad-state2{
+    width: 100px;
+    height: 45px;
+}
+.D-saad-state3{
+    font-size: 30px;
+}
+/*************************************************************************************
+**************************************************************************************/
+.D-Ahmad{
+    width: 60%;
+    margin-bottom: 20px;
+    height: 650px;
+    font-size: 30px;
+}
+.D-Ahmad>img{
+    width: 100%;
+    height: 400px;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.D-Ahmad-informaition3{
+    font-size: 30px;
+}
+.D-Ahmad-informaition2{
+    font-size: 30px;
+}
+.D-Ahmad-state2{
+    font-size: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    height: 60px;
+
+}
+
+.D-Ahmad-state3{
+    font-size: 30px;
+}
+/*************************************************************************************
+**************************************************************************************/
+.D-Asmaa{
+    width: 60%;
+    margin-bottom: 20px;
+    height: 650px;
+    font-size: 30px;
+}
+.D-Asmaa>img{
+    width: 100%;
+    height: 400px;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.D-Asmaa-informaition3{
+    font-size: 30px;
+}
+.D-Asmaa-informaition2{
+    font-size: 30px;
+}
+.D-Asmaa-state2{
+    font-size: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    height: 60px;
+
+}
+
+.D-Asmaa-state3{
+    font-size: 30px;
+}
+
+.schedule-table{
+    width: 1336px;
+    height: 783px;
+}
+
+}
+
+
+/*************************************************************************************
+**************************************************************************************/
+@media (min-width:380px) and (max-width:768px){
+    html{
+        width: 1474px;
+        height: 1634px;
+    }
+    .s-link>img{
+        width: 100px;
+    }
+
+    .aside-bar{
+        height: 1642px;
+        font-size: larger;
+    }
+    .search-section{
+        width: 1319px;
+    }
+.news-section{
+    width: 1012px;
+    height: 556px;
+}
+    .news-f{
+        width: 1010px;
+
+    }
+    .adds-div{
+        width: 51%;
+    }
+
+    .patient-div{
+        width: 25%;
+    }
+
+    .new-appointment-div{
+        width: 25%;
+    }
+
+    .p-sub{
+        transform: translate(0px,0px);
+    }
+}
