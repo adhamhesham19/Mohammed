@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./اضافة موعد جديد.css">
+   <title>إضافة موعد جديد</title>
+</head>
+
+<body>
+   <div class="New-appointment-cont">
+      <section class="Add-a-new-appointment-section">
+         <div class="New-appointment-title">
+            <div class="New-appointment-title1">
+               <div>
+                  <h1>إضافة موعد جديد</h1>
+               </div>
+               <div>
+                  <a href="#">ضبط</a>
+               </div>
+            </div>
+         </div>
+         <br>
+         <div class="New-appointment-card">
+            <div class="right-div">
+               <div class="name">
+                  <h3>الإسم *</h3>
+                  <input type="text" placeholder="&nbsp;&nbsp;الاسم بالكامل" id="name">
+               </div>
+               <br>
+               <div class="Age">
+                  <h2>السن*</h2>
+                  <input type="text" placeholder="&nbsp;&nbsp;السن" id="Age">
+               </div>
+               <br>
+               <div class="Phone-Number">
+                  <h2>رقم الهاتف</h2>
+                  <div class="Phone-Number-div">
+                     <div class="Phone-Number-div2">
+                        <div class="Phone-Number-select-div">
+                           <select name="location" id="location-select">
+                              <option value="#">Eg</option>
+                              <option value="#">AF</option>
+                              <option value="#">AL</option>
+                              <option value="#">DZ</option>
+                              <option value="#">AS</option>
+                              <option value="#">AD</option>
+                              <option value="#">AO</option>
+                              <option value="#">AI</option>
+                              <option value="#">US</option>
+
+                           </select>
+                        </div>
+                        <input type="tel" placeholder="رقم الهاتف" id="Phone-Number"
+                           style="border: 1.35px rgba(12, 205, 253, 0.932);">
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="the-place">
+                  <h2> الجهة التابع لها</h2>
+                  <form action="">
+                     <input type="text" placeholder="الجهة التابع لها" id="Phone-Number">
+                  </form>
+               </div>
+               <br>
+               <div class="discount-div">
+                  <h2>نسبة الخصم</h2>
+                  <select name="discount" id="Discount">
+                     <option value="" disabled selected hidden>10%</option>
+                     <option value="10%">10%</option>
+                     <option value="20%">20%</option>
+                     <option value="30%">30%</option>
+                     <option value="40%">40%</option>
+                     <option value="50%">50%</option>
+                     <option value="60%">60%</option>
+                     <option value="70%">70%</option>
+                     <option value="80%">80%</option>
+                     <option value="90%">90%</option>
+
+                  </select>
+               </div>
+               <br>
+
+               <div class="Reservation-number-div">
+                  <h2>رقم الحجز</h2>
+                  <select name="Reservation" id="Reservation-number">
+                     <option value="" disabled selected hidden>1</option>
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+
+
+                  </select>
+               </div>
+               <br>
+               <div class="Reservation-type-div">
+                  <h2>نوع الحجز*</h2>
+                  <select name="Reservation-type" id="Reservation-type">
+                     <option value="" disabled selected hidden>نوع1</option>
+                     <option value="1">نوع1</option>
+                     <option value="2">نوع2</option>
+                     <option value="3">نوع3</option>
+                     <option value="4">نوع4</option>
+                     <option value="5">نوع5</option>
+
+                  </select>
+                  <button class="Add-a-new-Reservation-type">+</button>
+               </div>
+            </div>
+
+            <div class="left-div">
+               <div class="gendar">
+                  <h2>الجنس*</h2>
+                  <div class="gendar-type-div">
+                     <div class="male-div">
+
+
+                        <input type="radio" name="" value="male">
+                        <label for="male">ذكر</label>
+                     </div>
+                     <div class="female-div">
+                        <input type="radio" value="female"><label for="female">انثى</label>
+
+                     </div>
+                  </div>
+               </div>
+               <br>
+
+               <div class="birthday">
+                  <h2>تاريخ الميلاد</h2>
+                  <select class="select3">
+                     <option value="" disable selected hidden>اليوم</option>
+
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                     <option value="12">11</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                     <option value="17">17</option>
+                     <option value="18">18</option>
+                     <option value="19">19</option>
+                     <option value="20">20</option>
+                     <option value="21">21</option>
+                     <option value="22">22</option>
+                     <option value="23">23</option>
+                     <option value="24">24</option>
+                     <option value="25">25</option>
+                     <option value="26">26</option>
+                     <option value="28">28</option>
+                     <option value="29">29</option>
+                     <option value="30">30</option>
+                     <option value="31">31</option>
+                  </select>
+                  <select class="select2">
+                     <option value="" disable selected hidden>الشهر</option>
+
+                     <option value="January">Jan</option>
+                     <option value="February">Feb</option>
+                     <option value="march">mar</option>
+                     <option value="April">Apr</option>
+                     <option value="May">May</option>
+                     <option value="June">Jun</option>
+                     <option value="July">Jul</option>
+                     <option value="August">Aug</option>
+                     <option value="September">Sep</option>
+                     <option value="October">Oct</option>
+                     <option value="November">Nov</option>
+                     <option value="December">Dec</option>
+                  </select>
+                  <select class="select1">
+                     <option value="" disable selected hidden>السنة</option>
+
+                     <option value="2005">2005</option>
+                     <option value="2008">2008</option>
+                     <option value="2009">2009</option>
+                     <option value="2010">2010</option>
+                     <option value="2011">2011</option>
+                     <option value="2012">2012</option>
+                     <option value="2013">2013</option>
+                     <option value="2014">2014</option>
+                     <option value="2015">2015</option>
+                     <option value="2016">2016</option>
+                     <option value="2017">2017</option>
+                     <option value="2018">2018</option>
+                     <option value="2019">2019</option>
+                     <option value="2020">2020</option>
+                     <option value="2021">2021</option>
+                     <option value="2022">2022</option>
+                     <option value="2023">2023</option>
+                  </select>
+                  <div>
+                     <br>
+                     <input type="radio" name="hour" id="hour"> <label for="hour" class="hour">الساعة</label>
+                  </div>
+               </div>
+               <br>
+               <div class="The-address">
+                  <h2>العنوان</h2>
+                  <div class="The-address-div">
+                     <select name="Governorate" id="Governorate">
+                        <option value="" disable selected hidden>المحافظة</option>
+
+                        <option value="القاهرة">القاهرة</option>
+                        <option value="الجيزة">الجيزة</option>
+                        <option value="الأسكندرية">الأسكندرية</option>
+                        <option value="الدقهلية">الدقهلية</option>
+                        <option value="الشرقية">الشرقية"</option>
+                        <option value="المنوفية">المنوفية</option>
+                        <option value="القليوبية">القليوبية</option>
+                        <option value="البحيرة">البحيرة</option>
+                        <option value="الغربية">الغربية</option>
+                        <option value="بور سعيد">بور سعيد</option>
+                        <option value="دمياط">دمياط</option>
+                        <option value="الإسماعيلية">الإسماعيلية</option>
+                        <option value="السويس">السويس</option>
+                        <option value="كفر الشيخ">كفر الشيخ</option>
+                        <option value="الفيوم">الفيوم</option>
+                        <option value="بني سويف">بني سويف</option>
+                        <option value="مطروح">مطروح</option>
+                        <option value="شمال سيناء">شمال سيناء</option>
+                        <option value="جنوب سيناء">جنوب سيناء</option>
+                        <option value="المنيا">المنيا</option>
+                        <option value="أسيوط">أسيوط</option>
+                        <option value="سوهاج">سوهاج</option>
+                        <option value="قنا">قنا</option>
+                        <option value="البحر الأحمر">البحر الأحمر</option>
+                        <option value="الأقصر">الأقصر</option>
+                        <option value="أسوان">أسوان</option>
+                        <option value="الواحات">الواحات</option>
+                        <option value="الوادي الجديد">الوادي الجديد</option>
+                     </select>
+
+                     <select name="Police station" id="Police-station">
+                        <option value="" disable selected hidden>المركز</option>
+
+                        <option value="مركز البدرشين ">مركز البدرشين </option>
+                        <option value="مركز الصف">مركز الصف</option>
+                        <option value="مركز أطفيح">مركز أطفيح</option>
+                        <option value="مركز العياط">مركز العياط</option>
+                        <option value="مركز الواحات البحرية">مركز الواحات البحرية</option>
+                        <option value="مركز منشأة القناطر">مركز منشأة القناطر</option>
+                        <option value="مركز أوسيم">مركز أوسيم</option>
+                        <option value="مركز كرداسة">مركز كرداسة</option>
+                        <option value="مركز أبو النمرس">مركز أبو النمرس</option>
+                        <option value="مركز بنها">مركز بنها</option>
+                        <option value="مركز قليوب">مركز قليوب</option>
+                        <option value="مركز القناطر الخيرية">مركز القناطر الخيرية</option>
+                        <option value="مركز الخانكة">مركز الخانكة</option>
+                        <option value="مركز كفر شكر">مركز كفر شكر</option>
+                        <option value=""></option>
+                        <option value="مركز طوخ">مركز طوخ</option>
+                        <option value="مركز شبين القناطر">مركز شبين القناطر</option>
+                        <option value="مركز برج العرب">مركز برج العرب</option>
+                        <option value="مركز دمنهور">مركز دمنهور</option>
+                        <option value="مركز كفر الدوار">مركز كفر الدوار</option>
+                        <option value="مركز رشيد">مركز رشيد</option>
+                        <option value="مركز إدكو">مركز إدكو</option>
+                        <option value="مركز أبو المطامير">مركز أبو المطامير</option>
+                        <option value="مركز أبو حمص">مركز أبو حمص</option>
+                        <option value="مركز الدلنجات">مركز الدلنجات</option>
+                        <option value="مركز المحمودية">مركز المحمودية</option>
+                        <option value="مركز الرحمانية">مركز الرحمانية</option>
+                        <option value="مركز إيتاي البارود">مركز إيتاي البارود</option>
+                        <option value="مركز حوش عيسى">مركز حوش عيسى</option>
+                        <option value="مركز شبراخيت">مركز شبراخيت</option>
+                        <option value="مركز كوم حمادة">مركز كوم حمادة</option>
+                        <option value="مركز بدر">مركز بدر</option>
+                        <option value="مركز وادي النطرون">مركز وادي النطرون</option>
+                        <option value="مركز مرسى مطروح ">مركز مرسى مطروح </option>
+                        <option value="مركز الحمام">مركز الحمام</option>
+                        <option value="مركز العلمين">مركز العلمين</option>
+                        <option value="مركز الضبعة">مركز الضبعة</option>
+                        <option value="مركز النجيلة">مركز النجيلة</option>
+                        <option value="مركز سيدي براني">مركز سيدي براني</option>
+                        <option value="مركز السلوم">مركز السلوم</option>
+                        <option value="مركز سيوة">مركز سيوة</option>
+
+                     </select>
+                  </div>
+               </div>
+               <br>
+
+               <div class="comments">
+                  <h2>ملاحظات</h2>
+                  <textarea name="" id="comments" cols="50" rows="5" placeholder="ملاحظات خاصة بالمريض"></textarea>
+               </div>
+               <br>
+               <div class="Reservation-appiontment">
+                  <h2>موعد الحجز*</h2>
+                  <div class="Reservation-appiontment-div">
+                     <select name="Reservation-appiontment-hour" id="Reservation-appiontment-hour">
+                        <option value="" disable selected hidden>الساعة</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                     </select>
+
+                     <select name="Reservation-appiontment-min" id="Reservation-appiontment-min">
+                        <option value="" disable selected hidden>الدقيقة</option>
+
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <option value="45">45</option>
+                        <option value="46">46</option>
+                        <option value="47">47</option>
+                        <option value="48">48</option>
+                        <option value="49">49</option>
+                        <option value="50">50</option>
+                        <option value="51">51</option>
+                        <option value="52">52</option>
+                        <option value="53">53</option>
+                        <option value="54">54</option>
+                        <option value="55">55</option>
+                        <option value="56">56</option>
+                        <option value="57">57</option>
+                        <option value="58">58</option>
+                        <option value="59">59</option>
+                        <option value="60">60</option>
+
+
+                     </select>
+
+                  </div>
+                  <br>
+                  <input type="radio"> <label for="Another-Appointment-Date" class="Another-Appointment-Date">تاريخ
+                     أخر</label>
+               </div>
+               <br><br>
+               <div class="cost">
+                  <h3>التكلفة:150ج</h3>
+               </div>
+               <br><br>
+               <div class="submit-returne">
+                  <button class="returne-button"><img src="./svg/1.svg" alt="">رجوع</button>
+                  <button class="submit-button">حجز</button>
+
+               </div>
+
+            </div>
+         </div>
+      </section>
+   </div>
+   </div>
+
+</body>
+
+</html>

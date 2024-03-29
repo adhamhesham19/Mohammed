@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+    background-color:#ECF4FF;
+}
+
+.New-appointment-cont{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.Add-a-new-appointment-section{
+   display: flex;
+   padding: 20px;
+   flex-direction: column;
+
+}
+
+.New-appointment-title{
+    display: flex;
+    width: 100%;
+}
+
+.New-appointment-title1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(1, 126, 245, 1);
+    font-size: large;
+}
+
+
+.New-appointment-card{
+    display: flex;
+    width: 1000px;
+    background-color: white;
+    height: 890px;
+    padding: 10px;
+    font-family: "Changa", sans-serif;
+font-size: x-small;
+}
+
+
+
+.right-div{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name{
+    padding: 10px;
+    width: 100%;
+    height: 59.34px;
+    border-radius: 10px ;
+    border: 1.35px;
+    background-color: #ECF4FF;
+
+}
+
+.name>h2{
+    color: gray;
+    font-style: normal;
+}
+
+#Age{
+    padding: 10px;
+       width: 100%;
+    height: 59.34px;
+    border-radius: 10px ;
+    border: 1.35px; 
+    background-color: #ECF4FF;
+
+}
+
+.Age>h2{
+    color: gray;
+}
+
+
+.Phone-Number>h2{
+    color: gray;
+
+}
+#Phone-Number{
+       padding: 10px;
+       width: 100%;
+    height: 59.34px;
+    border-radius: 10px ;
+    border: 1.35px; 
+    direction: rtl;
+    background-color: #ECF4FF;
+    padding-right: 50px;
+
+}
+
+.Phone-Number-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#location-select{
+    background-color: #ECF4FF;
+    border: 0;
+    transform: translate(3px, -8px);
+
+}
+
+.Phone-Number-select-div{
+    position: absolute;
+       background-color: #ECF4FF;
+    border: 0;
+    transform: translate(-5px, 28px); 
+}
+
+
+.the-place>h2{
+color: gray;
+}
+#Discount{
+    padding: 10px;
+    width: 100%;
+    height: 59.34px;
+    border-radius: 10px;
+    border: 1.35px;
+    background-color: #ECF4FF;
+
+}
+
+#Reservation-number{
+        padding: 10px;
+    width: 100%;
+    height: 59.34px;
+    border-radius: 10px;
+    border: 1.35px;
+    background-color: #ECF4FF;
+
+}
+
+#Reservation-type{
+           padding: 10px;
+    width: 80%;
+    height: 59.34px;
+    border-radius: 10px;
+    border: 1.35px gray;
+    background-color: #ECF4FF;
+}
+
+.Add-a-new-Reservation-type{
+    background-color: #ECF4FF;
+    color:  rgba(46, 144, 250, 1);
+    width: 59.5px;
+    height: 59.5px;
+    border: 0;
+    font-size: 27px;
+    border-radius: 10.79px;
+}
+
+.discount-div>h2{
+    color: gray;
+}
+
+.Reservation-number-div>h2{
+    color: gray;
+}
+
+.Reservation-type-div>h2{
+    color: gray;
+}
+
+.left-div{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.gendar-type-div{
+    display: flex;
+    width: 23%;
+    justify-content: space-between;
+}
+
+.male-div{
+    font-size: medium;
+    font-family: "Changa", sans-serif;
+
+}
+
+.female-div{
+    font-size: medium;
+    font-family: "Changa", sans-serif;
+
+    
+}
+
+.The-address-div{
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.select3{
+    border: 0;
+    width: 117px;
+    height: 59px;
+    border-radius: 10.79px;
+    text-align: center;
+    background-color: #ECF4FF;
+}
+
+.select2{
+       width: 158px;
+    height: 59px;
+    border-radius: 10.79px;
+    text-align: center; 
+    background-color: #ECF4FF;
+border: 0;
+}
+
+.select1{
+         width: 179px;
+    height: 59px;
+    border-radius: 10.79px;
+    text-align: center; 
+    background-color: #ECF4FF;
+  border: 0;
+}
+
+.hour{
+    font-size: large;
+}
+
+
+#Governorate{
+    width: 217.73px;
+    height: 59px;
+    border-radius: 10.79px;
+    background-color: #ECF4FF;
+    border: 0;
+}
+
+#Police-station{
+       width: 217.73px;
+    height: 59px;
+    border-radius: 10.79px;
+    background-color: #ECF4FF;
+border: 0;
+}
+
+#comments{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 180.58px;
+    border-radius: 10px;
+    padding: 18px;
+    background-color: #ECF4FF;
+    border: 0;
+}
+
+.Reservation-appiontment-div{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#Reservation-appiontment-min{
+    width: 158px;
+    height: 59px;
+    border-radius: 10.79px;
+    background-color: #ECF4FF;
+    border: 0;
+}
+
+#Reservation-appiontment-hour{
+      width: 158px;
+    height: 59px;
+    border-radius: 10.79px; 
+    background-color: #ECF4FF; 
+    border: 0;
+}
+
+
+.Another-Appointment-Date{
+    font-size: medium;
+
+}
+
+.cost>h3{
+    font-family: "Changa", sans-serif;
+font-size: 19px;    color: rgba(52, 64, 84, 1);
+}
+
+.submit-returne{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.returne-button{
+    background-color: #ECF4FF;
+    color: rgba(1, 126, 245, 1);
+    width: 118px;
+    height: 56px;
+    border-radius: 8.07px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: medium;
+    margin-left:8px ;
+
+}
+
+
+.submit-button{
+    background-color: rgba(1, 126, 245, 1);
+    color: white;
+        width: 118px;
+    height: 56px;    border-radius: 8.07px;
+border: 0;
+}
+
+.submit-button:hover{
+    background-color: #ECF4FF;
+    color: rgba(1, 126, 245, 1);
+}
+
+@media(max-width:375px){
+    .New-appointment-card{
+        flex-direction: column;
+        height: 1396px;
+        width: 362px;
+    }
+
+    .right-div{
+        width: 100%;
+    }
+    .left-div{
+        width: 100%;
+    }
+    .select3{
+        width: 46%;
+    }
+    .select2{
+        width: 50%;
+    }
+    .select1{
+        margin-top: 10px;
+    }
+
+    #Governorate{
+        width: 129.73px;
+    }
+
+    #Police-station{
+        width: 151.73px;
+    }
+    #comments{
+        height: 126.58px;
+    }
+
+}
+
+
+@media(min-width:380px) and (max-width:770px){
+    .New-appointment-card{
+        width: 749px;
+        height: 881px;
+    }
+    .select3{
+        width: 31%;
+    }   
+    .select2{
+        width: 30%;
+    }
+    .select1{
+        width: 35%;
+    } 
+    .The-address-div{
+        width: 100%;
+    } 
+    #Governorate{
+        width: 162.73px;
+    } 
+    
+    #Police-station{
+        width: 161.73px;
+    }
+
+    #comments{
+        height: 133.58px;
+    }
+    .Reservation-appiontment-div{
+        width: 94%;
+    }
+}
