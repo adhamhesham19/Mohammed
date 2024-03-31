@@ -1,159 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     direction: rtl;
-    background-color:#ECF4FF;
+
+    background-color: #ECF4FF;
 }
 
-.New-appointment-cont{
+.main-cont {
     display: flex;
     flex-direction: row;
     height: 100%;
     justify-content: center;
-}
-
-
-.Add-a-new-appointment-section{
-   display: flex;
-   padding: 20px;
-   flex-direction: column;
+    --font-changa: "Changa", sans-serif;
 
 }
 
-.New-appointment-title{
+
+.Add-a-new-appointment-section {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+
+}
+
+.New-appointment-title {
     display: flex;
     width: 100%;
 }
 
-.New-appointment-title1{
+.New-appointment-title1 {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgba(1, 126, 245, 1);
     font-size: large;
 }
 
+.a-cont {
+    display: flex;
+    align-items: center;
+}
 
-.New-appointment-card{
+
+.New-appointment-card {
     display: flex;
     width: 1000px;
     background-color: white;
     height: 890px;
+    font-family: var(--font-changa);
     padding: 10px;
-    font-family: "Changa", sans-serif;
-font-size: x-small;
+    font-size: x-small;
 }
 
 
+h2 {
+    color: gray;
+    font-style: normal;
+}
 
-.right-div{
+input,textarea,select {
+    font-family: var(--font-changa);
+    font-size: medium;
+}
+
+
+.right-div {
+
     width: 50%;
     padding: 10px;
     display: flex;
     flex-direction: column;
 }
 
-#name{
+#name,#Age,#Phone-Number,#Discount,#Reservation-number,#Police-station {
     padding: 10px;
-    width: 100%;
+    border-radius: 10px;
     height: 59.34px;
-    border-radius: 10px ;
+
     border: 1.35px;
     background-color: #ECF4FF;
-
+    width: 100%;
+    border: 0;
 }
 
-.name>h2{
-    color: gray;
-    font-style: normal;
-}
-
-#Age{
-    padding: 10px;
-       width: 100%;
-    height: 59.34px;
-    border-radius: 10px ;
-    border: 1.35px; 
-    background-color: #ECF4FF;
-
-}
-
-.Age>h2{
-    color: gray;
-}
-
-
-.Phone-Number>h2{
-    color: gray;
-
-}
-#Phone-Number{
-       padding: 10px;
-       width: 100%;
-    height: 59.34px;
-    border-radius: 10px ;
-    border: 1.35px; 
+#Phone-Number {
+    width: 100%;
     direction: rtl;
-    background-color: #ECF4FF;
     padding-right: 50px;
 
 }
 
-.Phone-Number-div{
-    display: flex;
-    flex-direction: column;
-}
-
-#location-select{
+#location-select {
     background-color: #ECF4FF;
     border: 0;
     transform: translate(3px, -8px);
 
 }
 
-.Phone-Number-select-div{
+.Phone-Number-select-div {
     position: absolute;
-       background-color: #ECF4FF;
-    border: 0;
-    transform: translate(-5px, 28px); 
+    background-color: #ECF4FF;
+    transform: translate(-5px, 28px);
 }
 
-
-.the-place>h2{
-color: gray;
-}
-#Discount{
+#Reservation-type {
     padding: 10px;
-    width: 100%;
-    height: 59.34px;
-    border-radius: 10px;
-    border: 1.35px;
-    background-color: #ECF4FF;
-
-}
-
-#Reservation-number{
-        padding: 10px;
-    width: 100%;
-    height: 59.34px;
-    border-radius: 10px;
-    border: 1.35px;
-    background-color: #ECF4FF;
-
-}
-
-#Reservation-type{
-           padding: 10px;
     width: 80%;
     height: 59.34px;
     border-radius: 10px;
@@ -161,9 +122,9 @@ color: gray;
     background-color: #ECF4FF;
 }
 
-.Add-a-new-Reservation-type{
+.Add-a-new-Reservation-type {
     background-color: #ECF4FF;
-    color:  rgba(46, 144, 250, 1);
+    color: rgba(46, 144, 250, 1);
     width: 59.5px;
     height: 59.5px;
     border: 0;
@@ -171,84 +132,62 @@ color: gray;
     border-radius: 10.79px;
 }
 
-.discount-div>h2{
-    color: gray;
-}
 
-.Reservation-number-div>h2{
-    color: gray;
-}
 
-.Reservation-type-div>h2{
-    color: gray;
-}
-
-.left-div{
+.left-div {
     width: 50%;
     padding: 10px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
 }
 
-.gendar-type-div{
+.gendar-type-div {
     display: flex;
     width: 23%;
     justify-content: space-between;
 }
 
-.male-div{
-    font-size: medium;
-    font-family: "Changa", sans-serif;
+label {
+    font-family:var(--font-changa);
 
 }
 
-.female-div{
-    font-size: medium;
-    font-family: "Changa", sans-serif;
-
-    
-}
-
-.The-address-div{
+.The-address-div {
     width: 94%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.select3{
+.select1,
+.select2,
+.select3 {
     border: 0;
-    width: 117px;
     height: 59px;
     border-radius: 10.79px;
     text-align: center;
     background-color: #ECF4FF;
 }
 
-.select2{
-       width: 158px;
-    height: 59px;
-    border-radius: 10.79px;
-    text-align: center; 
-    background-color: #ECF4FF;
-border: 0;
+.select3 {
+    width: 117px;
 }
 
-.select1{
-         width: 179px;
-    height: 59px;
-    border-radius: 10.79px;
-    text-align: center; 
-    background-color: #ECF4FF;
-  border: 0;
+.select2 {
+    width: 158px;
+
 }
 
-.hour{
+.select1 {
+    width: 179px;
+}
+
+.hour {
     font-size: large;
 }
 
 
-#Governorate{
+#Governorate {
     width: 217.73px;
     height: 59px;
     border-radius: 10.79px;
@@ -256,15 +195,14 @@ border: 0;
     border: 0;
 }
 
-#Police-station{
-       width: 217.73px;
+#Police-station {
+    width: 217.73px;
     height: 59px;
     border-radius: 10.79px;
-    background-color: #ECF4FF;
-border: 0;
+
 }
 
-#comments{
+#comments {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
@@ -275,12 +213,13 @@ border: 0;
     border: 0;
 }
 
-.Reservation-appiontment-div{
+.Reservation-appiontment-div {
     width: 70%;
     display: flex;
     justify-content: space-between;
 }
-#Reservation-appiontment-min{
+
+#Reservation-appiontment-min {
     width: 158px;
     height: 59px;
     border-radius: 10.79px;
@@ -288,32 +227,27 @@ border: 0;
     border: 0;
 }
 
-#Reservation-appiontment-hour{
-      width: 158px;
+#Reservation-appiontment-hour {
+    width: 158px;
     height: 59px;
-    border-radius: 10.79px; 
-    background-color: #ECF4FF; 
+    border-radius: 10.79px;
+    background-color: #ECF4FF;
     border: 0;
 }
 
-
-.Another-Appointment-Date{
-    font-size: medium;
-
+h3 {
+    font-family: var(--font-changa);
+    font-size: 19px;
+    color: rgba(52, 64, 84, 1);
 }
 
-.cost>h3{
-    font-family: "Changa", sans-serif;
-font-size: 19px;    color: rgba(52, 64, 84, 1);
-}
-
-.submit-returne{
+.submit-returne {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.returne-button{
+.returne-button {
     background-color: #ECF4FF;
     color: rgba(1, 126, 245, 1);
     width: 118px;
@@ -325,90 +259,138 @@ font-size: 19px;    color: rgba(52, 64, 84, 1);
     align-items: center;
     border: 0;
     font-size: medium;
-    margin-left:8px ;
+    margin-left: 8px;
 
 }
 
 
-.submit-button{
+.submit-button {
     background-color: rgba(1, 126, 245, 1);
     color: white;
-        width: 118px;
-    height: 56px;    border-radius: 8.07px;
-border: 0;
+    width: 118px;
+    height: 56px;
+    border-radius: 8.07px;
+    border: 0;
 }
 
-.submit-button:hover{
-    background-color: #ECF4FF;
-    color: rgba(1, 126, 245, 1);
-}
-
-@media(max-width:375px){
-    .New-appointment-card{
+@media(max-width:375px) {
+    .New-appointment-card {
         flex-direction: column;
-        height: 1396px;
+        height: 1620px;
         width: 362px;
     }
 
-    .right-div{
+    .right-div {
         width: 100%;
     }
-    .left-div{
+
+    .left-div {
         width: 100%;
     }
-    .select3{
+
+    .select3 {
         width: 46%;
     }
-    .select2{
+
+    .select2 {
         width: 50%;
     }
-    .select1{
+
+    .select1 {
         margin-top: 10px;
     }
 
-    #Governorate{
+    #Governorate {
         width: 129.73px;
     }
 
-    #Police-station{
+    #Police-station {
         width: 151.73px;
     }
-    #comments{
+
+    #comments {
         height: 126.58px;
     }
+
+    .Reservation-appiontment-div {
+        width: 83%;
+    }
+
+    #Reservation-appiontment-hour {
+        width: 126px;
+    }
+
+    #Reservation-appiontment-min {
+        width: 126px;
+    }
+
+
 
 }
 
 
-@media(min-width:380px) and (max-width:770px){
-    .New-appointment-card{
-        width: 749px;
+@media(min-width:380px) and (max-width:770px) {
+    .New-appointment-card {
+        width: 100%;
         height: 881px;
     }
-    .select3{
+
+    .Add-a-new-appointment-section {
+        width: 100%;
+    }
+
+    .select3 {
         width: 31%;
-    }   
-    .select2{
+    }
+
+    .select2 {
         width: 30%;
     }
-    .select1{
+
+    .select1 {
         width: 35%;
-    } 
-    .The-address-div{
+    }
+
+    .The-address-div {
         width: 100%;
-    } 
-    #Governorate{
+    }
+
+    #Governorate {
         width: 162.73px;
-    } 
-    
-    #Police-station{
+    }
+
+    #Police-station {
         width: 161.73px;
     }
 
-    #comments{
+    #comments {
         height: 133.58px;
     }
-    .Reservation-appiontment-div{
+
+    .Reservation-appiontment-div {
         width: 94%;
+    }
+
+}
+
+@media(min-width:772px) and (max-width:990px) {
+    .Add-a-new-appointment-section {
+        width: 100%;
+    }
+
+    .New-appointment-card {
+        width: 100%;
+    }
+
+    .select3 {
+        width: 31%;
+    }
+
+    .select2 {
+        width: 30%;
+    }
+
+    .select1 {
+        width: 35%;
     }
 }
