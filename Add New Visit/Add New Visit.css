@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://db.onlinewebfonts.com/c/040a78b437acd0433612f92e61d04a1b?family=Gilroy-Medium');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ECF4FF;
+    font-family: "Gilroy-Medium";
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    --font-changa: "Changa", sans-serif;
+    width: 100%;
+
+}
+.Add-New-Visit-div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 71%;
+}
+.Add-New-Visit-section{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    height: 1120px;
+    width: 100%;
+    padding: 15px;
+}
+
+.Phase-div{
+    display: flex;
+    justify-content: space-around;
+}
+.Phase-1{
+    width: 7%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.num1{
+    background-color: rgba(73, 148, 255, 1);
+    color: white;
+    width: 60%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.num2{
+       background-color: rgba(73, 148, 255, 1);
+    color: white;
+    width: 80%;
+    height: 56px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 60px; 
+}
+
+.num3{
+        background-color: rgba(73, 148, 255, 1);
+    color: white;
+    width: 50%;
+    height: 59px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;    
+}
+
+.Phase-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.patients-condition-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.patients-condition{
+    width:  42%;
+    height:  800px;
+    background-color: #ECF4FF;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    
+}
+
+.body-Temperature-select{
+    width: 100%;
+height: 50px;
+padding: 10px;
+font-family: "Gilroy-Medium";color: gray;
+border: 1px;
+border-radius:10px ;
+border-color: rgba(232, 236, 239, 1)
+;
+border-style: solid;
+
+}
+
+.body-Temperature-select:hover{
+ border-color: rgb(66, 104, 133)
+;
+border-style: solid;   
+}
+
+.Blood-pressure{
+    display: flex;
+    flex-direction: column;
+}
+
+.Blood-pressure-input{
+    display: flex;
+    justify-content: space-between;
+}
+.BloodPressure-Systole{
+    width: 45%;
+    height: 50px;
+    padding: 10px;
+    border: 1.5px;
+    border-color: rgba(232, 236, 239, 1);
+    border-style: solid;
+    border-radius:10px ;
+}
+.BloodPressure-Systole:hover{
+ border-color: rgb(66, 104, 133) ;border-style: solid; 
+}
+
+.BloodPressure-Diastole{
+    width: 45%;
+    height: 50px;
+    padding: 10px;
+    border: 1.5px;
+    border-color: rgba(232, 236, 239, 1);
+    border-style: solid;
+    border-radius:10px ;    
+}
+.BloodPressure-Diastole:hover{
+ border-color: rgb(66, 104, 133) ;border-style: solid; 
+}
+
+.Blood-Sugar-select{
+    width: 32%;
+    height: 50px;
+        padding: 10px;
+    border: 1.5px;
+    border-color: rgba(232, 236, 239, 1);
+    border-style: solid;
+    border-radius:10px ; 
+}
+.Blood-Sugar-select:hover{
+ border-color: rgb(66, 104, 133) ;border-style: solid; 
+}
+
+.Body-information{
+    display: flex;
+    flex-direction: column;
+}
+
+.Body-information-input{
+    width: 100%;
+    height: 50px;
+    padding: 15px;    border: 1.5px;
+    border-color: rgba(232, 236, 239, 1);
+    border-style: solid;
+    border-radius:10px ;
+}
+.Body-information-input:hover{
+ border-color: rgb(66, 104, 133) ;border-style: solid; 
+}
+
+.IPM-label{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Back-Next-button{
+    display: flex;
+
+}
+
+.Back-button{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 67px;
+width: 174px;
+height: 50px;
+border-radius: 6px;
+border: 0;
+background-color: rgba(244, 246, 247, 1);
+
+}
+
+.Next-button{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+color: white;
+width: 205px;
+height: 50px;border-radius: 6px;
+border: 0;
+background-color: rgba(73, 148, 255, 1);
+}
+
+@media(max-width:375px){
+   .Add-New-Visit-div{
+width: 100%;
+   }
+   .Add-New-Visit-section{
+    width: 99%;
+   }
+   
+    .patients-condition{
+        width: 100%;
+    height: 930px;
+   }
+   
+    .Phase-div{
+        flex-wrap: wrap;
+    }
+
+    .phase-2{
+        width: 22%;
+    }
+    .num1{
+        width: 49%;
+    }
+    .Phase-1 {
+    width: 32%;
+    }
+
+    .Blood-Sugar{
+        display: flex;
+        flex-direction: column;
+    }
+    .Blood-Sugar-containar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+
+.Blood-Sugar-select{
+width: 100%;
+}
+.IPM-label{
+    flex-wrap: wrap;
+}
+
+.Next-button {
+    width: 174px;
+}
+}
+
+@media(min-width:380px) and (max-width:770px){
+    .Add-New-Visit-section{
+        height: 970px;
+    }    
+    .patients-condition{
+        width: 100%;
+
+    }
+    .Phase-1 {
+        width: 17%;
+    }
+
+
+}
