@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color:#ECF4FF;
+    --font-changa: "Changa", sans-serif;
+}
+
+.mian-contianer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: var(--font-changa);
+}
+
+.Add-New-Visit-contianer{
+    padding: 10px;
+    height: 500px;
+}
+
+.Add-New-Visit-pag{
+    background: white;
+    height: 90%;
+    padding: 10px;
+    width: 901px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.phase-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.phase-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phase-p1,.phase-p2,.phase-p3{
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: rgba(73, 148, 255, 1);
+    border-radius: 41px;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.phase-2{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.phase-3{
+         display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.phase-p3{
+background-color: rgba(73, 148, 255, 1);
+color: white;
+
+}
+
+.Medicine-Services-div{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.Add-Medicine-button-div{
+   display: flex;
+   justify-content: center; 
+}
+
+.Add-Medicine-button{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 93px;
+    gap: 10px;
+    width: 296px;
+    height: 48px;
+    background: rgba(85, 160, 255, 0.05);
+    border: 1.5px dashed #4994FF;
+    border-radius: 8px;
+    flex: none;
+}
+
+
+.Previous-Nextstep-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Previous-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 67px;
+    gap: 10px;
+    width: 205px;
+    height: 50px;
+    background: #F4F6F7;
+    border-radius: 6px;
+    border: 0;
+}
+
+
+.Nextstep-button{
+
+    border: 0;
+width: 205px;
+height: 50px;
+background: #4994FF;
+border-radius: 8px;
+color: white;
+
+}
+
+@media (min-width:375px) and (max-width:686px){
+    .Add-New-Visit-contianer{
+        width: 380px;
+    }
+
+    .Add-New-Visit-pag{
+        width: 90%;
+    }
+}
+
+@media(min-width:688px) and (max-width:895px){
+    .Add-New-Visit-pag{
+        width: 682px;
+    }
+}
+
