@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color:#ECF4FF;
+font-family: var(--font-family);
+}
+h1{
+    font-size: 23px;
+}
+h2{
+    font-size: medium;
+
+}
+
+.pag-containar{
+    display: flex;
+    justify-content: center;
+}
+.history-pag-containar{
+    width: 1120px;
+    height: 1301px;
+    background: #FFFFFF;
+    box-shadow: 0px 21px 16px -16px #DCE3F1;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.history-log-1{
+    padding: 10px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+width: 100%;
+height: 779px;
+}
+/*
+.history-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.history-1-left-div{
+    display: flex;
+    justify-content: space-between;
+    width: 263px;
+    padding: 5px;
+}
+
+.div-img{
+    overflow: hidden;
+    border-radius: 53px;
+    height: 100px;
+}
+
+.img-1{
+    width: 100px;
+    height: 103px;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.add-delete-div{
+    width: 268px;
+    display: flex;
+    justify-content: space-between;
+}
+.add-button{
+background: #4994FF;
+border-radius: 8px;
+
+width: 205px;
+height: 50px;
+border: 0;
+    color: white;
+  
+}
+
+.del-button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+width: 50px;
+height: 50px;
+
+background: #FFFFFF;
+border: 1.5px solid #E8ECEF;
+border-radius: 9.6px;
+}
+*/
+/***********************************************************/
+.history-Date{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+}
+
+.Date-left-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5px;
+}
+
+.day{
+    display: flex;
+    justify-content: space-around;
+    width: 43%;
+}
+
+
+button{
+    cursor:pointer;
+}
+
+.back-button,.next-button{
+    background-color: white;
+    border: none;
+}
+
+.Dr3{
+    color: rgba(73, 148, 255, 1);
+}
+
+.Date-right-div{
+    display: flex;
+    align-items: end;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.Date-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92%;
+}
+
+.Date-filter{
+    margin-left: 3px;
+
+padding: 9px 23px;
+
+width: 117.24px;
+height: 42px;
+
+border: 1px solid #4994FF;
+color: rgba(73, 148, 255, 1);
+font-size: medium;
+}
+
+/*************************************/
+.Complaint-Examination-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+textarea{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 13.4855px 18.8797px 50px;
+width: 522px;
+height: 117.91px;
+background: #FFFFFF;
+border: 1.34855px solid #D0D5DD;
+box-shadow: 0px 1.34855px 2.6971px rgba(16, 24, 40, 0.05);
+border-radius: 10px;
+}
+/*****************************************/
+.patiant-DIV{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 312px;
+
+
+}
+
+.Biometrics-div,.Lab-Test-div
+,.Radiology-div,.Prescription-Medicine-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    width: 100%;
+    height: 66px;
+    background-color: #FAFAFA;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.Biometrics-left-div,.Lab-Test-left-div
+,.Radiology-left-div,.Prescription-Medicine-left-div{
+    display: flex;
+}
+
+.more-button{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 34px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.pin-button{
+    width: 24px;
+    height: 30px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background-color: #FAFAFA;
+}
+
+/*********************************************/
+@media(min-width:320px) and (max-width:760px){
+    html{
+      width: 303%;  
+    }
+    .Complaint-Examination-div{
+        flex-direction: column;
+
+    }
+    .pag-containar{
+        justify-content: flex-start;
+    }
+    .history-pag-containar{
+        width: 692px;
+    }
+
+    .history-Date{
+        flex-direction: column;
+    }
+
+    .Date-right-div{
+        width: 36%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1030px){
+    html{
+       width:147% ; 
+    }
+ 
+    .pag-containar{
+        justify-content: flex-start;
+    }
+
+    .Complaint-Examination-div{
+        flex-direction: column;
+    }
+
+    .history-pag-containar {
+        width: 815px;
+    }
+
+
+
+}
+
+
+@media (min-width:1032px){
+      .pag-containar{
+        justify-content: center;
+    }
+  
+
+}
