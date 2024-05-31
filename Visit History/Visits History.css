@@ -247,6 +247,9 @@ height: 312px;
     html{
       width: 303%;  
     }
+    h1{
+        font-size: 14px;
+    }
     .Complaint-Examination-div{
         flex-direction: column;
 
@@ -283,7 +286,9 @@ height: 312px;
     .history-pag-containar {
         width: 815px;
     }
-
+    h1{
+        font-size: 18px;
+    }
 
 
 }
