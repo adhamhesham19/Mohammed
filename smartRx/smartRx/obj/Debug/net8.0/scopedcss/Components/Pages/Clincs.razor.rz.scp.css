@@ -1,0 +1,214 @@
+*[b-jfimmlkiw9]{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root[b-jfimmlkiw9] {
+    --font-family: 'Poppins';
+    --font-weight: 400;
+    --font-style: normal;
+}
+
+.main-container[b-jfimmlkiw9] {
+    font-family: 'Poppins';
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fc;
+}
+
+.User-card[b-jfimmlkiw9] {
+    display: flex;
+    background: white;
+    /*width: 1334px;*/
+    height: 300px;
+    padding: 6px;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.top-rectangle[b-jfimmlkiw9] {
+    /*width: 1320px;*/
+    background-image: linear-gradient(180deg, #6057fb, #6358fa, #8265fd);
+    height: 102px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.User-card .more-h[b-jfimmlkiw9] {
+    width: 38px;
+    height: 38px;
+    background: rgba(248, 249, 250, 1);
+    border: 0;
+    border-radius: 4px;
+    position: relative;
+    top: 0;
+    right: 45px;
+    top: -10px;
+    position: absolute;
+}
+
+.Doctor-Data[b-jfimmlkiw9] {
+    display: flex;
+    height: 182px;
+    position: relative;
+    left: 32px;
+    top: -40px;
+}
+
+.Doctor-Image[b-jfimmlkiw9] {
+    width: 174px;
+    border-radius: 18px;
+}
+
+.name-div h2[b-jfimmlkiw9] {
+    font-family: 'Poppins';
+    font-weight: var(--font-weight);
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.name-div[b-jfimmlkiw9] {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px;
+}
+
+.name-div2[b-jfimmlkiw9] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 206px;
+}
+
+.pro-class[b-jfimmlkiw9] {
+    background-color: rgba(207, 241, 230, 1);
+    color: rgba(17, 185, 129, 1);
+    width: 45px;
+    height: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    font-size: small;
+}
+
+.locatian-div[b-jfimmlkiw9] {
+    width: 280px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(148, 153, 161, 1);
+}
+
+.User-card hr[b-jfimmlkiw9] {
+    position: absolute;
+    width: 102%;
+    top: 195px;
+    left: -42px;
+}
+
+.options-div[b-jfimmlkiw9] {
+    width: 426px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(148, 153, 161, 1);
+}
+
+    .options-div p:hover[b-jfimmlkiw9] {
+        color: rgba(81, 81, 249, 1);
+    }
+
+.info-container[b-jfimmlkiw9] {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+}
+/**********************************************************************************************************/
+
+.Clinics-div[b-jfimmlkiw9] {
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.more-h[b-jfimmlkiw9] {
+    width: 38px;
+    height: 38px;
+    background: rgba(248, 249, 250, 1);
+    border: 0;
+    border-radius: 4px;
+}
+
+.top-Info[b-jfimmlkiw9] {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+}
+
+.button-div[b-jfimmlkiw9] {
+    display: flex;
+    width: 16%;
+    justify-content: space-between;
+}
+
+.add-Clinics[b-jfimmlkiw9] {
+    width: 65%;
+    height: 100%;
+    padding: 7px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgba(81, 81, 249, 1);
+    color: white;
+}
+
+.Clinics[b-jfimmlkiw9] {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Clinics-info[b-jfimmlkiw9] {
+    width: 20%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hospital-div[b-jfimmlkiw9] {
+    background: rgba(138, 138, 201, 0.23);
+    height: 167px;
+    border-radius: 5.94px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hospital-img[b-jfimmlkiw9] {
+    border-radius: 5.94286px 5.94286px 0px 0px;
+    width: 58%;
+    height: 100%;
+}
+
+.About-p[b-jfimmlkiw9]{
+  font-family: "Inter", sans-serif;
+
+}
+
+.Clinics-numbers[b-jfimmlkiw9]{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}

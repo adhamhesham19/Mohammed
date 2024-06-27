@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\smartRx.bundle.scp.css",
+      "PackagePath": "staticwebassets\\smartRx.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\1.png",
+      "PackagePath": "staticwebassets\\Imgs\\1.png"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\1.svg",
+      "PackagePath": "staticwebassets\\Imgs\\1.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\2.svg",
+      "PackagePath": "staticwebassets\\Imgs\\2.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\3.svg",
+      "PackagePath": "staticwebassets\\Imgs\\3.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\Analitics-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\Analitics-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\Calendar-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\Calendar-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\Dashboard-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\Dashboard-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\Home-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\Home-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\Logout-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\Logout-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\Management-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\Management-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\Pricing-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\Pricing-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\Settings-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\Settings-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\SmartRx-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\SmartRx-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\To-do-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\To-do-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\health-icon.svg",
+      "PackagePath": "staticwebassets\\Imgs\\health-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\Imgs\\hospital-img.png",
+      "PackagePath": "staticwebassets\\Imgs\\hospital-img.png"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\أدهم\\smartRx\\smartRx\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.smartRx.props",
+      "PackagePath": "build\\smartRx.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.smartRx.props",
+      "PackagePath": "buildMultiTargeting\\smartRx.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.smartRx.props",
+      "PackagePath": "buildTransitive\\smartRx.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.smartRx.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

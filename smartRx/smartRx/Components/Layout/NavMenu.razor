@@ -1,0 +1,114 @@
+﻿@implements IDisposable
+@inject NavigationManager NavigationManager
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="chevron-up">
+        <img class="chevron-up-child"
+             loading="eager"
+             alt=""
+             src="/Imgs/SmartRx-icon.svg" />
+
+        <div class="input-copy-frame">
+            <b class="smart4">Smart</b>
+            <b class="rx4">RX</b>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <a class="navbar-brand" style="color:black;" >Main</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+       
+
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="DoctorPage">
+                        <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true">
+                            <img class="pics-container" src="/Imgs/Dashboard-icon.svg" alt="Alternate Text" />
+
+                        </span> Dashboard
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Calendar">
+                        <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true">
+                            <img class="pics-container" src="/Imgs/Calendar-icon.svg" alt="Alternate Text" />
+
+                        </span> Calendar
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Patient">
+                        <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true">
+                            <img class="pics-container" src="/Imgs/health-icon.svg" alt="Alternate Text" />
+
+                        </span> Patient
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Analytics">
+                        <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true">
+                            <img class="pics-container" src="/Imgs/Analitics-icon.svg" alt="Alternate Text" />
+</span> Analytics
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link"  href="ClinicManagement">
+                        <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true">
+                            <img class="pics-container" src="/Imgs/Management-icon.svg" alt="Alternate Text" />
+
+                        </span>Clinic Management
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Settings">
+                        <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true">
+                            <img class="pics-container" src="/Imgs/Settings-icon.svg" alt="Alternate Text" />
+
+                        </span> Settings
+                    </NavLink>
+                </div>
+
+ 
+            
+               
+                <div class="nav-item px-3">
+                    <form action="Account/Logout" method="post">
+                        <AntiforgeryToken />
+                        <input type="hidden" name="ReturnUrl" value="" />
+
+                        <button type="submit" class="nav-link">
+                        <img class="pics-container" src="/Imgs/Logout-icon.svg" alt="Alternate Text" />
+                            <span class="bi bi-arrow-bar-left-nav-menu" aria-hidden="true"></span> Logout
+                        </button>
+                    </form>
+                </div>
+   
+
+    </nav>
+</div>
+
+@code {
+    private string? currentUrl;
+
+    protected override void OnInitialized()
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
+        NavigationManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(e.Location);
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+}
