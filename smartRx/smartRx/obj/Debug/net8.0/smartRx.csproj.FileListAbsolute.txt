@@ -28,4 +28,5 @@ F:\أدهم\smartRx\smartRx\obj\Debug\net8.0\smartRx.pdb
 F:\أدهم\smartRx\smartRx\obj\Debug\net8.0\smartRx.genruntimeconfig.cache
 F:\أدهم\smartRx\smartRx\obj\Debug\net8.0\ref\smartRx.dll
 F:\أدهم\smartRx\smartRx\obj\Debug\net8.0\scopedcss\Components\Pages\Settings.razor.rz.scp.css
-F:\أدهم\smartRx\smartRx\obj\Debug\net8.0\scopedcss\Components\Pages\Clincs.razor.rz.scp.css
+F:\أدهم\smartRx\smartRx\obj\Debug\net8.0\scopedcss\Components\Pages\Clinic.razor.rz.scp.css
+F:\أدهم\smartRx\smartRx\obj\Debug\net8.0\scopedcss\Components\Pages\ClinincComponent.razor.rz.scp.css

@@ -1,41 +1,44 @@
 ﻿@page "/Settings"
+@rendermode InteractiveServer
 
-    <div class="main-contianar">
-        <div class="User-card">
-            <div class="top-rectangle"></div>
-            <div class="Doctor-Data">
-                <button class="more-h"><img src="Imgs/1.svg" alt=""></button>
-                <img src="Imgs/1.png" alt="" class="Doctor-Image">
-                <div class="name-div">
-                    <div class="name-div2">
-                        <h2>Ahmed Reda</h2>
-                        <div class="pro-class">Pro</div>
-                    </div>
-                    <p>ahmedreda</p>
-                    <br>
-                    <div class="locatian-div"><p>Cardiologist</p> <p>El-Mansoura, Egypt</p></div>
-
+  <div class="main-contianar">
+    <div class="User-card">
+        <div class="top-rectangle"></div>
+        <div class="Doctor-Data">
+            <button class="more-h"><img src="/Imgs/1.svg" alt=""></button>
+            <img src="/Imgs/1.png" alt="" class="Doctor-Image">
+            <div class="name-div">
+                <div class="name-div2">
+                    <h2>Ahmed Reda</h2>
+                    <div class="pro-class">Pro</div>
                 </div>
+                <p>ahmedreda</p>
+                <br>
+                <div class="locatian-div"><p>Cardiologist</p> <p>El-Mansoura, Egypt</p></div>
+
+            </div>
             <hr>
-            </div>
-            <div class="options-div">
-                <p>Overview</p>
-                <p>Clincs</p>
-                <p>Assistants</p>
-                <p>sectors</p>
-                <p>prescription</p>
-
-            </div>
         </div>
+        <div class="options-div">
+            <button @onclick="()=>showClinics=1">Overview</button>
+            <button @onclick="()=>showClinics=2">Clinics</button>
+            <button @onclick="()=>showClinics=3">Assistants</button>
+            <button @onclick="()=>showClinics=4">sectors</button>
+            <button @onclick="()=>showClinics=5">prescription</button>
 
-        <br>
+        </div>
+    </div>
+
+    <br>
+    @if (showClinics == 1)
+    {
         <div class="info-container">
             <div class="left-div">
                 <div class="Info-div">
 
                     <div class="top-Info">
                         <p>Info</p>
-                    <button class="more-h"><img src="Imgs/1.svg" alt=""></button>
+                        <button class="more-h"><img src="/Imgs/1.svg" alt=""></button>
                     </div>
 
                     <div class="Full-Name">
@@ -68,7 +71,7 @@
                 <div class="Diplomas-div">
                     <div class="top-Info">
                         <p>Diplomas</p>
-                    <button class="more-h"><img src="Imgs/1.svg" alt=""></button>
+                        <button class="more-h"><img src="/Imgs/1.svg" alt=""></button>
                     </div>
 
                     <div class="Diplomas-Name">
@@ -96,7 +99,7 @@
                 <div class="ToDo-div">
                     <div class="top-Info" title="TO-do">
                         <p>ToDo</p>
-                    <button class="more-h"><img src="Imgs/1.svg" alt=""></button>
+                        <button class="more-h"><img src="images/settings/1.svg" alt=""></button>
                     </div>
 
                     <div class="TODo-4">
@@ -124,7 +127,7 @@
                 <div class="About-div">
                     <div class="top-Info">
                         <p>About</p>
-                    <button class="more-h"><img src="Imgs/1.svg" alt=""></button>
+                        <button class="more-h"><img src="images/settings/1.svg" alt=""></button>
                     </div>
                     <br>
                     <p class="About-p">
@@ -142,7 +145,7 @@
                 <div class="Certifications">
                     <div class="top-Info">
                         <p>Certifications</p>
-                    <button class="more-h"><img src="Imgs/1.svg" alt=""></button>
+                        <button class="more-h"><img src="images/settings/1.svg" alt=""></button>
                     </div><br>
                     <div class="Certifications-contianar">
                         <div class="Certifications-items"></div>
@@ -155,10 +158,10 @@
                     <div class="button-div-containar">
                         <div class="buttons-div">
                             <div class="befor-button-div">
-                            <button class="befor-button"> <img src="Imgs/2.svg" alt=""></button>
+                                <button class="befor-button"> <img src="images/settings/2.svg" alt=""></button>
                             </div>
                             <div class="after-button-div">
-                                <button class="after-button"> <img src="Imgs/3.svg" alt=""></button>
+                                <button class="after-button"> <img src="images/settings/3.svg" alt=""></button>
                             </div>
                         </div>
                     </div>
@@ -167,7 +170,7 @@
                 <div class="education">
                     <div class="top-Info">
                         <p>Education</p>
-                    <button class="more-h"><img src="Imgs/1.svg" alt=""></button>
+                        <button class="more-h"><img src="images/settings/1.svg" alt=""></button>
                     </div>
                     <br>
                     <div class="Bachelor-of-Medicine-div">
@@ -186,7 +189,7 @@
                     <div class="Masters-degree-in-cardiology-div">
                         <div class="top-Info">
                             <p>Education</p>
-                        <button class="more-h"><img src="Imgs/1.svg" alt=""></button>
+                            <button class="more-h"><img src="images/settings/1.svg" alt=""></button>
                         </div>
                         <br>
                         <div class="Masters-degree-in-cardiology">
@@ -202,8 +205,31 @@
 
             </div>
         </div>
+    }
+    else if (showClinics == 2)
+    {
+        <div class="clinics-container">
+            <ClinincComponent clinicName="Mohammad CLinic" ptCount="9"></ClinincComponent>
+            <ClinincComponent clinicName="Adham Clinic" ptCount="10"></ClinincComponent>
+            <ClinincComponent clinicName="Ahmad Clinic" ptCount="2"></ClinincComponent>
+            <ClinincComponent clinicName="Anas Clinic" ptCount="15"></ClinincComponent>
+        </div>
+    }
+    else if (showClinics == 3)
+    {
+
+    }
+    else if (showClinics == 4)
+    {
+
+    }
+    else if (showClinics == 5)
+    {
+
+    }
+</div>
+@code {
+    int showClinics { get; set; } = 1;
+}
 
 
-
-
-    </div>

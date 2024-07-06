@@ -1,0 +1,106 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root {
+    --font-family: 'Poppins';
+    --font-weight: 400;
+    --font-style: normal;
+}
+
+.main-container {
+    font-family: 'Poppins';
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fc;
+}
+
+
+/**********************************************************************************************************/
+
+.Clinics-div {
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.more-h {
+    width: 38px;
+    height: 38px;
+    background: rgba(248, 249, 250, 1);
+    border: 0;
+    border-radius: 4px;
+}
+
+.top-Info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+}
+
+.button-div {
+    display: flex;
+    width: 16%;
+    justify-content: space-between;
+}
+
+.add-Clinics {
+    width: 65%;
+    height: 100%;
+    padding: 7px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgba(81, 81, 249, 1);
+    color: white;
+}
+
+.Clinics {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Clinics-info {
+    width: 20%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hospital-div {
+    background: rgba(138, 138, 201, 0.23);
+    height: 167px;
+    border-radius: 5.94px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hospital-img {
+    border-radius: 5.94286px 5.94286px 0px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+.About-p{
+  font-family: "Inter", sans-serif;
+
+}
+
+.Clinics-numbers{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}

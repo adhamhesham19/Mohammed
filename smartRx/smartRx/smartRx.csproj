@@ -7,7 +7,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Components\Pages\ClincsComponentrazor.razor" />
+    <Content Remove="Components\Pages\Clinics.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\Imgs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Pages\Clinics.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Pages\ClincsComponentrazor.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Clinics.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Pages\ClincsComponentrazor.razor" />
   </ItemGroup>
 
 </Project>

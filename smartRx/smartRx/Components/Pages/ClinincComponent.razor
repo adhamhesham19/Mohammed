@@ -1,0 +1,44 @@
+﻿@page "/cliniccomponent"
+
+<div class="main-contianar">
+    <div class="Clinics-div">
+
+        <div class="Clinics">
+            <div class="Clinics-info">
+                <div class="hospital-div">
+                    <img src="/Imgs/hospital-img.png" alt="Alternate Text" class="hospital-img" />
+                </div>
+                <br>
+
+                <div class="top-Info">
+                    <p>@clinicName</p>
+                    <button class="more-h"><img src="/Imgs/1.svg" alt=""></button>
+                </div>
+                <p class="About-p">
+                    Ut tristique et egestas quis ipsum ultrices. neq ue De vitae tempus quam pellentesque nec nam aliquam sem.
+                </p>
+                <br>
+
+                <div class="Clinics-numbers">
+                    <p>@ptCount Patints</p>
+                    <p>16 Appointments </p>
+                </div>
+            </div>
+            @************************************************************************************************************************************************@
+
+        </div>
+
+    </div>
+
+
+
+</div>
+
+@code {
+    [Parameter]
+    public string clinicName { get; set; } = "";
+    [Parameter]
+    public int ptCount { get; set; }
+    [Parameter]
+    public EventCallback callback { get; set; }
+}

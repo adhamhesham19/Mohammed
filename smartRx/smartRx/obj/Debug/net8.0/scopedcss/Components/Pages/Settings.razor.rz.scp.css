@@ -114,7 +114,12 @@
     color: rgba(148, 153, 161, 1);
 }
 
-    .options-div p:hover[b-6yl95n7phm] {
+    .options-div button[b-6yl95n7phm] {
+        border: 0;
+        background-color: transparent;
+        color: rgba(148, 153, 161, 1);
+    }
+    .options-div button:hover[b-6yl95n7phm] {
         color: rgba(81, 81, 249, 1);
     }
 
@@ -306,4 +311,8 @@
     width: 356px;
     height: 1px;
     border: 1px dashed rgba(222, 226, 230, 1);
+}
+
+.clinics-container[b-6yl95n7phm] {
+    display: inline-flex;
 }
