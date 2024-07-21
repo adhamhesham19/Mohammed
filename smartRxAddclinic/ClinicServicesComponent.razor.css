@@ -1,0 +1,56 @@
+﻿.Services-div-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.services-type {
+    display: flex;
+    justify-content: space-around;
+    width: calc(100% / 7);
+    font-size: large;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    height: 100%;
+    width: 13%;
+}
+
+.services-price, .services-Secretary-discount {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services-price {
+    width: 16%;
+}
+
+    .services-price select {
+        border: 1px solid rgba(208, 213, 221, 1);
+        border-radius: 7px;
+        width: 51%;
+        height: 35px;
+        padding: 6px;
+    }
+
+.services-Secretary-discount {
+    justify-content: flex-start;
+    width: 23%;
+}
+
+    .services-Secretary-discount select {
+        border: 1px solid rgba(208, 213, 221, 1);
+        border-radius: 7px;
+        width: 33%;
+        height: 35px;
+        padding: 6px;
+    }
+
+.more-h {
+    width: 38px;
+    height: 38px;
+    background: rgba(248, 249, 250, 1);
+    border: 0;
+    border-radius: 4px;
+}

@@ -1,0 +1,45 @@
+﻿@page "/Clinics"
+
+<div class="clinics-main-container">
+
+    @if (showServices == 0)
+    {
+            <div class="Clinics-div">
+        <div class="top-Info">
+            <p>Clininc</p>
+            <div class="button-div">
+                <button class="add-Clinics" @onclick="()=>showServices=1">Add Clininc</button>
+                <button class="more-h"><img src="./Imgs/1.svg" alt=""></button>
+            </div>
+
+        </div>
+
+        <br>
+        <div class="Clinics">
+            <ClinincComponent clinicName="Mohammad CLinic" ptCount="9"></ClinincComponent>
+            <ClinincComponent clinicName="Adham Clinic" ptCount="10"></ClinincComponent>
+            <ClinincComponent clinicName="Ahmad Clinic" ptCount="2"></ClinincComponent>
+            <ClinincComponent clinicName="Anas Clinic" ptCount="15"></ClinincComponent>
+@************************************************************************************************************************************************@
+
+        </div>
+
+        </div>
+    }
+
+    else if (showServices == 1)
+    {
+        <div class="add-clinic">
+            <ClinicServicesPage onclose="()=>showServices=0"></ClinicServicesPage>
+       </div>
+    }
+
+
+
+
+
+</div>
+
+@code {
+    int showServices { get; set; } = 0;
+}

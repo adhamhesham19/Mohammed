@@ -1,0 +1,33 @@
+﻿<div class="Services-div-container">
+<div class="services-type">
+
+    <input type="checkbox" id="services-check">
+    <label for="services-check"> @services </label>
+
+</div>
+
+<div class="services-price">
+    <select>
+        <option disabled hidden selected>0</option>
+    </select>
+    <label>EP</label>
+</div>
+
+<div class="services-Secretary-discount">
+    <select>
+        <option value="0" selected hidden disabled>0%</option>
+    </select>
+
+</div>
+
+<div>
+    <button class="more-h"><img src="./Imgs/1.svg" alt=""></button>
+
+</div>
+</div>
+@code {
+
+    [Parameter]
+    public string services { get; set; } = "";
+
+}

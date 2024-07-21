@@ -1,0 +1,65 @@
+﻿@page "/ClinicServicesPage"
+@rendermode InteractiveServer
+
+<div class="clinic-settings-main-container">
+
+    <div class="page-location-container">
+
+        <div class="page-location-title">
+            <h4>Settings</h4> 
+            </div>
+
+        <div  class="page-location">
+            <p class="page-location">
+                Settings <img src="./Imgs/3.svg" alt=""> Clinics <img src="./Imgs/3.svg" alt=""> Add Clinic
+            </p>
+
+        </div>
+    </div>
+
+    <div class="Clinics-buttons-container">
+        <button @onclick="()=>showServices=1">General</button>
+        <button @onclick="()=>showServices=2">Doctors</button>
+        <button @onclick="()=>showServices=3">Assistants</button>
+        <button @onclick="()=>showServices=4">Organizations</button>
+        <button @onclick="()=>showServices=5">Services</button>
+    </div>
+    <div class="services-main-div">
+    <div class="services-left-div">
+
+            @if (showServices == 5){
+            
+       <ClinicServicesPageComponent></ClinicServicesPageComponent>
+
+        }
+    
+
+
+    </div>
+
+        <div class="services-right-div">
+            <button>Next</button>
+            <button>Previous</button>
+            <button>Update</button>
+            <button @onclick="close">Save & Exit</button>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+@code {
+    int showServices { get; set; } = 1;
+
+    [Parameter]
+    public EventCallback onclose { get; set; }
+
+    async Task close()
+    {
+        await onclose.InvokeAsync();
+    }
+
+}
