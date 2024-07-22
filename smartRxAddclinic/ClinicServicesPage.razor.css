@@ -11,18 +11,23 @@
     background-color:white;
 }
 
+.page-location-title  h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(61, 71, 92, 1);
+}
 .page-location {
     font-family: Inter;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
     color: rgba(148, 153, 161, 1);
 }
 
 .Clinics-buttons-container {
     display: flex;
-    justify-content: space-between;
+
     padding: 10px;
-    width: 33%;
+   gap:4px;
     transform: translate(0px, 21px);
 }
 
@@ -53,14 +58,6 @@
     flex-direction: column;
 }
 
-.Services-container {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    background-color: white;
-    width: 100%;
-    border-radius: 6px;
-}
 .more-h {
     width: 38px;
     height: 38px;
@@ -142,25 +139,7 @@ input[type="search"] {
 input[type="search"]:focus {
     outline:1px solid;
 }
-
-/**************************************************************/
-
-.Services-title {
-    display: flex;
-    justify-content: space-around;
-    font-size: 21px;
-    height:27px;
-}
 /***************************************************************************************************************/
-.services-div {
-    display: flex;
-    justify-content: space-around;
-    width: 97%;
-    flex-direction: column;
-    flex-direction: column;
-    height: 500px;
-}
-
 .services-type {
     display: flex;
     justify-content: space-around;

@@ -1,7 +1,8 @@
 ﻿.Services-div-container {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+justify-content:space-between;
+
 }
 .services-type {
     display: flex;
@@ -42,7 +43,7 @@ input[type="checkbox"] {
     .services-Secretary-discount select {
         border: 1px solid rgba(208, 213, 221, 1);
         border-radius: 7px;
-        width: 33%;
+        width: 46%;
         height: 35px;
         padding: 6px;
     }
