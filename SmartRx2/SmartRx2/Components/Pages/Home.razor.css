@@ -1,0 +1,475 @@
+﻿*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.main-containar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Alexandria", sans-serif;
+}
+
+.info-div {
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(45deg, #3333b770, #e9dabeb5);
+    backdrop-filter: blur(129px);
+    height: 844px;
+    overflow: hidden;
+}
+
+    .info-div .title {
+        height: 154px;        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 120%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #263238;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+  .info-div b {
+    position: absolute;
+    width: 209px;
+    height: 49px;
+    left: 53%;
+    top: 33px;
+    background: linear-gradient(90deg, #FFB050 0%, #4994FF 100%);
+    filter: blur(25px);
+    border-radius: 50px;
+    z-index: -1;
+}
+/****************************************************************/
+.services-info-div {
+    display: flex;
+    width: 100%;
+    height: 635px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.services-containar {
+    display: flex;
+    gap: 109px;
+    height: 35px;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #c0c0c0;
+    padding: 8px;
+    justify-content: space-around;
+}
+/*****************************/
+.services-type-containar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px; gap:54px;
+}
+.title-2 {
+    width: 518px;
+    height: 48px;
+    font-family: "Alexandria", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+}
+/**********************/
+.services-type{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    padding:10px;
+
+}
+/*******************/
+.about-us-containar {
+    width: 100%;
+    background-color: #f5f7fb;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    z-index: 0;
+    gap: 65px;
+}
+
+.about-us-title {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 119px;
+}
+
+
+.the-people-comments {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ gap:63px;
+ height:88%;
+}
+
+.comment-viwe {
+    position: absolute;
+    left: 172px;
+    top: 1774px;
+    width: 80%;
+    height: 389px;
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFB050 32.5%, #4994FF 67.5%, #FFFFFF 100%);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+/*/************************************************************/
+.asked-questions-continar {
+    width: 100%;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+    .asked-questions-continar b {
+        position: absolute;
+        width: 718px;
+        height: 105px;
+        left: 27%;
+        top: 2366px;
+        background: linear-gradient(90deg, #FFB050 -0.55%, #4994FF 99.34%);
+        filter: blur(35px);
+        border-radius: 50px;
+        z-index: 0;
+    }
+/******************************************************************************************************/
+.contact-us-containar {
+    width: 100%;
+    padding: 85px;
+    display: flex;
+    gap: 10px;
+    height: 865px;
+    justify-content: space-around;
+    background-color: #F5F7FB;
+}
+
+
+/**right-div**/
+.right-div{
+    display:flex;
+ 
+
+}
+
+.right-brown-div {
+    top: 61px;
+    width: 40px;
+    height: 40px;
+    background: #FFB050;
+    z-index: 3;
+    position: relative;
+    left: 196px;
+}
+.right-blue-div {
+    width: 177px;
+    height: 575px;
+    background: #4994FF;
+
+}
+
+/**********/
+.our-link-phons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 433px;
+    height: 406px;
+    background: #18181B;
+    top: 76px;
+    position: relative;
+    left: 177px;
+    color: white;
+    padding: 54px;
+}
+
+.media-div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 40px;
+    max-width: 376px;
+    height: 40px;
+    background: #F4F4F4;
+    border-radius: 20px;
+   
+}
+
+/*******left-div*********/
+
+.left-div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+
+}
+
+.contact-us-title{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:122px;
+    gap:15px;
+}
+.Personal-data {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    height: 478px;
+    gap: 15px;
+
+}
+
+    .Personal-data form {
+        display: flex;
+        flex-direction: column;
+        gap: 62px;
+        width: 100%;
+        height: 382px;
+    }
+.Personal-data input[type="text"],.Personal-data input[type="email"]{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px;
+    gap: 10px;
+    width: 427px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #CED8DF;
+    border-radius: 6px;
+
+}
+    .Personal-data textarea {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 14px 13px;
+        gap: 10px;
+        width: 427px;
+        height: 150px;
+        background: #FFFFFF;
+        border: 1px solid #CED8DF;
+        border-radius: 6px;
+
+ }
+
+.submit-button {
+    width: 199.63px;
+    height: 48.1px;
+    background: #18181B;
+    border-radius: 6px;
+    color: white;
+    font-size: large;
+}
+
+/******************************************************************************/
+.copy-rights-containar {
+    width: 100%;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+/************************************************/
+.smart4 {
+    height: 39px;
+    font-size: 26px;
+}
+
+.top-row {
+    padding: 10px;
+    background-color: white;
+    margin-left: 16px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+
+.buttons-continar {
+    width: 40%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+}
+
+.smart4 {
+    height: 39px;
+    font-size: 26px;
+}
+
+.input-copy-frame {
+    flex-direction: row;
+    color: #ffb050;
+    display: flex;
+    align-items: baseline;
+}
+
+.chevron-up {
+    display: inline-flex;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chevron-up-child {
+    height: 48.5px;
+    width: 39.5px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.rx4,
+.smart4 {
+    position: relative;
+    z-index: 1;
+}
+
+.smart4 {
+    color: #4994FF;
+}
+
+.flex-column {
+    margin-top: 10px;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+/****************************************************/
+
+.smartrx-last-div {
+    display: flex;
+    padding: 30px;
+    width: 25%;
+    gap: 23px;
+    flex-direction: column;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+/**********************************/
+.smartrx-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 99px;
+    width: 837px;
+    height: 156px;
+}
+
+.pags-part-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 19%;
+    padding: 10px;
+}
+.pags-part-div a {
+    text-decoration: none;
+    color: #18181B;
+}
+
+/***************************************************************/
+.subscribe-div {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.enter-email-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    height: 56px;
+    gap: 12px;
+}
+
+    .enter-email-div input[type="email"] {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 17.25px 12px 17.25px 24px;
+        width: 300px;
+        height: 56px;
+        background: #F4F4F4;
+        border-radius: 32px;
+        border: 0;
+    }
+
+    .enter-email-div button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 14px;
+        width: 56px;
+        height: 56px;
+        background: #4994FF;
+        border-radius: 28px;
+        border: 0
+    }
+
+ /*******/
+.smartrx-p {
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.comment[b-wie1v1w7fe] {
+    width: 17%;
+    height: 291px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: -3px 0px 8px -3px #6f6f6f;
+}
+
+    .comment img[b-wie1v1w7fe] {
+        width: 40%;
+    }
+
+.user-div[b-wie1v1w7fe] {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    .user-div img[b-wie1v1w7fe] {
+        width: 27%;
+    }

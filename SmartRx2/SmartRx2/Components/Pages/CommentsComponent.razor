@@ -1,0 +1,25 @@
+﻿<div class="comment">
+    <img src="/imgs/favourite-31.png" alt="Alternate Text" />
+
+    <p>
+        @UserComment
+    </p>
+
+    <div class="user-div">
+        <img src="/imgs/Oval.png" alt="Alternate Text" />
+        <div class="user-name">
+            <p class="name">@UserName</p>
+            <p>@UserJob</p>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string UserComment { get; set; } = "";
+    [Parameter]
+    public string UserName { get; set; } = "";
+    [Parameter]
+    public string UserJob { get; set; } = "";
+}
