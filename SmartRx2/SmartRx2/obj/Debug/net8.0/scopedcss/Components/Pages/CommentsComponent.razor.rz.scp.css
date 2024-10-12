@@ -23,3 +23,9 @@
     .user-div img[b-wie1v1w7fe] {
         width: 27%;
     }
+
+@media (min-width:315px) and (max-width:480px){
+    .comment[b-wie1v1w7fe] {
+    width:25%;
+    }
+}

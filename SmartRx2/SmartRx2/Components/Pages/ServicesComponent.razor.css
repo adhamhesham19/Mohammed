@@ -12,3 +12,24 @@
     .services-content img {
         width: 28%;
     }
+
+@media (min-width:315px) and (max-width:480px){
+.services-content{
+    align-items:center;
+    width:100%;
+    height:356px;
+}
+    .services-content img {
+        width: 12%;
+    }
+
+    h3 {
+        font-size: 46px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 34px;
+        text-align: center;
+    }
+}

@@ -95,3 +95,17 @@ input[type="checkbox"]:checked + .button-label[b-6blxi9ymlb] {
         color: white;
         font-size: large;
     }
+
+/********************************************************************************/
+@media (min-width:315px) and (max-width:480px){
+    .buttons-continar[b-6blxi9ymlb] {
+        display: none;
+    }
+
+    .sign-in-button[b-6blxi9ymlb]{
+
+        display:none;
+    }
+
+}
+

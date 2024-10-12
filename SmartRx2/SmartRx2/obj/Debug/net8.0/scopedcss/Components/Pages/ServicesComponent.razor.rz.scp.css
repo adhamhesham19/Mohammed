@@ -12,3 +12,24 @@
     .services-content img[b-sn3q6ts1d8] {
         width: 28%;
     }
+
+@media (min-width:315px) and (max-width:480px){
+.services-content[b-sn3q6ts1d8]{
+    align-items:center;
+    width:100%;
+    height:356px;
+}
+    .services-content img[b-sn3q6ts1d8] {
+        width: 12%;
+    }
+
+    h3[b-sn3q6ts1d8] {
+        font-size: 46px;
+        font-weight: 700;
+    }
+
+    p[b-sn3q6ts1d8] {
+        font-size: 34px;
+        text-align: center;
+    }
+}

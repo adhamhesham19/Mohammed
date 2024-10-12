@@ -23,3 +23,9 @@
     .user-div img {
         width: 27%;
     }
+
+@media (min-width:315px) and (max-width:480px){
+    .comment {
+    width:25%;
+    }
+}
