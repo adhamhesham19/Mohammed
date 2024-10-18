@@ -40,3 +40,15 @@
     .less-button img[b-0q4jfcnh0x] {
         width: 81%;
     }
+
+@media (min-width:315px) and (max-width:620px){
+    .asked-questions[b-0q4jfcnh0x]{
+        width:100%;
+    }
+}
+
+@media (min-width:622px) and (max-width:1237px){
+    .asked-questions[b-0q4jfcnh0x]{
+        width:100%;
+    }
+}

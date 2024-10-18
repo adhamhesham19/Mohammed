@@ -53,7 +53,9 @@ article{
     height: 100px;
     top: 0;
     gap: 170px;
-    box-shadow: -1px -18px 49px 9px black ;display:flex;
+    box-shadow: -41px -19px 37px 9px black;
+    /*display:flex;*/
+    display:none;
 }
 
     .top-row {

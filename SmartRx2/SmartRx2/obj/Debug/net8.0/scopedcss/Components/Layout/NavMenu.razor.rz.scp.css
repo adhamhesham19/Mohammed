@@ -1,3 +1,4 @@
+
 *[b-6blxi9ymlb]{
     box-sizing:border-box;
 }
@@ -97,15 +98,14 @@ input[type="checkbox"]:checked + .button-label[b-6blxi9ymlb] {
     }
 
 /********************************************************************************/
-@media (min-width:315px) and (max-width:480px){
-    .buttons-continar[b-6blxi9ymlb] {
-        display: none;
+@media (min-width:1002px) and (max-width:1445px){
+
+    .nav-containar[b-6blxi9ymlb]{
+        gap:75px;
     }
-
-    .sign-in-button[b-6blxi9ymlb]{
-
-        display:none;
-    }
-
+.buttons-continar[b-6blxi9ymlb]{
+    width:56%
 }
 
+    
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UPoaWJaWQ8U8yLX1v2kT0Dko9KBh1sEHf8dIdT7Kevw=",
+  "Hash": "WRHfaEjMIgtXZyWOfwmx350WaoyMfCcbZEYdsDVfx80=",
   "Source": "SmartRx2",
   "BasePath": "_content/SmartRx2",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\arrow.png",
+      "SourceId": "SmartRx2",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\",
+      "BasePath": "_content/SmartRx2",
+      "RelativePath": "imgs/arrow.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\arrow.png"
     },
     {
       "Identity": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\arrow-right-02-round.png",
