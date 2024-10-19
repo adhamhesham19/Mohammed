@@ -1,0 +1,14 @@
+﻿.our-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+    .our-links a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        color: #E1E1E1;
+    }

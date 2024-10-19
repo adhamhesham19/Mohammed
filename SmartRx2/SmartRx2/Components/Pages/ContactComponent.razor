@@ -1,0 +1,33 @@
+﻿<div class="our-links">
+    <a href="#">
+        <img src="/imgs/mail-line.png" alt="Alternate Text" />
+        Salma@gmail.com
+
+    </a>
+
+
+    <a href="#">
+        <img src="/imgs/phone-line.png" alt="Alternate Text" />
+
+        +20 110 027 2451
+    </a>
+
+
+    <a href="#">
+        <img src="/imgs/map-pin-line.png" alt="Alternate Text" />
+        4 street loream,alexandria
+    </a>
+
+
+</div>
+@code {
+    [Parameter]
+    public string Email { get; set; } = "";
+
+    [Parameter]
+    public string Number { get; set; } = "";
+    [Parameter]
+    public string MapPin { get; set; } = "";
+
+
+}

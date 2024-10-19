@@ -1,0 +1,14 @@
+﻿@page "/services"
+<div class="services-content">
+    <img src="/imgs/icon-3.svg" alt="Alternate Text" />
+    <h3>@servicesTitle</h3>
+    <p>@servicessbj </p>
+
+</div>
+
+@code {
+    [Parameter]
+    public string servicesTitle { get; set; } = "";
+    [Parameter]
+    public string servicessbj { get; set; } = "";
+}

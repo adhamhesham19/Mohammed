@@ -1,0 +1,133 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SmartRx2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SmartRx2.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\Faceboke-line.png",
+      "PackagePath": "staticwebassets\\imgs\\Faceboke-line.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\Oval.png",
+      "PackagePath": "staticwebassets\\imgs\\Oval.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\SmartRx-icon.svg",
+      "PackagePath": "staticwebassets\\imgs\\SmartRx-icon.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\arrow-right-02-round.png",
+      "PackagePath": "staticwebassets\\imgs\\arrow-right-02-round.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\arrow.png",
+      "PackagePath": "staticwebassets\\imgs\\arrow.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\asset_12 (1).png",
+      "PackagePath": "staticwebassets\\imgs\\asset_12 (1).png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\asset_12.png",
+      "PackagePath": "staticwebassets\\imgs\\asset_12.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\asset_13.png",
+      "PackagePath": "staticwebassets\\imgs\\asset_13.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\asset_14.png",
+      "PackagePath": "staticwebassets\\imgs\\asset_14.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\asset_8.png",
+      "PackagePath": "staticwebassets\\imgs\\asset_8.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\asset_9.png",
+      "PackagePath": "staticwebassets\\imgs\\asset_9.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\favourite-31.png",
+      "PackagePath": "staticwebassets\\imgs\\favourite-31.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\icon-3.svg",
+      "PackagePath": "staticwebassets\\imgs\\icon-3.svg"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\image-1.png",
+      "PackagePath": "staticwebassets\\imgs\\image-1.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\instgram.png",
+      "PackagePath": "staticwebassets\\imgs\\instgram.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\linked-in.png",
+      "PackagePath": "staticwebassets\\imgs\\linked-in.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\mail-line.png",
+      "PackagePath": "staticwebassets\\imgs\\mail-line.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\map-pin-line.png",
+      "PackagePath": "staticwebassets\\imgs\\map-pin-line.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\minus-circle.png",
+      "PackagePath": "staticwebassets\\imgs\\minus-circle.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\phone-line.png",
+      "PackagePath": "staticwebassets\\imgs\\phone-line.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\plus-circle.png",
+      "PackagePath": "staticwebassets\\imgs\\plus-circle.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\right-short-arrow.png",
+      "PackagePath": "staticwebassets\\imgs\\right-short-arrow.png"
+    },
+    {
+      "Id": "F:\\أدهم\\SmartRx2\\SmartRx2\\wwwroot\\imgs\\twitter-x-line.png",
+      "PackagePath": "staticwebassets\\imgs\\twitter-x-line.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SmartRx2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SmartRx2.props",
+      "PackagePath": "build\\SmartRx2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SmartRx2.props",
+      "PackagePath": "buildMultiTargeting\\SmartRx2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SmartRx2.props",
+      "PackagePath": "buildTransitive\\SmartRx2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
