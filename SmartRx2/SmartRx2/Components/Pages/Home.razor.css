@@ -532,7 +532,7 @@ flex-direction: column;
     .mobile-model-div {
         display: flex;
         gap: 18px;
-        height: 25px;
+        height: 50px;
         width: 57%;
     }
 
@@ -556,7 +556,7 @@ flex-direction: column;
     }
 
     .mobile-model-div .arrow-img {
-        width: 25%;
+        width: 34%;
     }
 
     .smartrx-last-div {
@@ -568,6 +568,11 @@ flex-direction: column;
             display: none;
         }
     /**************************************************************************/
+
+.services-containar{
+    gap:48px;
+}
+    
     .services-info-div {
         height: 972px;
     }
