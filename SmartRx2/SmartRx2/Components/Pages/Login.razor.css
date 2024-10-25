@@ -1,0 +1,203 @@
+﻿.main-containar{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+
+}
+
+.left-div-containar {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    padding: 10px;
+    align-items: center;
+    gap: 50px;
+}
+.first-left-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+/************************************************/
+/************************************************/
+.top-row {
+    padding: 10px;
+    background-color: white;
+    margin-left: 16px;
+    justify-content: center;
+}
+
+
+.smart4 {
+    height: 39px;
+    font-size: 26px;
+}
+
+.input-copy-frame {
+    flex-direction: row;
+    color: #ffb050;
+    display: flex;
+    align-items: baseline;
+}
+
+.chevron-up {
+    display: inline-flex;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chevron-up-child {
+    height: 48.5px;
+    width: 39.5px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.rx4,
+.smart4 {
+    position: relative;
+    z-index: 1;
+}
+
+.smart4 {
+    color: #4994FF;
+}
+
+.flex-column {
+    margin-top: 10px;
+}
+/************************************************/
+/************************************************/
+.password-email-containar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    gap:10px;
+}
+
+.email-div, .password-div, .signin-div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:5px;
+}
+
+label{
+    padding:6px;
+}
+input[type="email"], input[type="password"] {
+    border: 0.5px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 6px -1px #6f6f6f;
+    height: 53px;
+    padding:15px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+        outline: 1px solid white;
+    }
+
+.signin-button {
+    border: 0;
+    width: 100%;
+    height: 42px;
+    border-radius: 6px;
+    color: white;
+    background-color: #4164e3;
+    box-shadow: 1px 4px 10px -3px #6f6f6f;
+
+}
+
+.signin-optoin-div{
+    display:flex;
+    padding:10px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.remember-me-div{
+    display:flex;
+    padding:5px;
+    align-items:center;
+}
+
+/************************************************/
+/************************************************/
+.right-div-containar {
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    height: 894px;
+    background-color: #375bda;
+    justify-content:space-between;
+}
+
+.smartrx-model-div{
+    height:68%;
+    overflow:hidden;
+}
+.white-border {
+    width: 65%;
+    height: 15px;
+    background-color: #e4e4e4;
+    position: relative;
+    top: -585px;
+    left: 157px;
+}
+
+    .smartrx-model-div img:nth-child(1) {
+        width: 100%;
+        height: 100%;
+    }
+.smartrx-model-div img:nth-child(2) {
+    width: 60%;
+    position: relative;
+    top: -308px;
+    left: 184px;
+}
+/************************************************/
+/************************************************/
+.right-div-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    gap:10px;
+}
+.right-div-info p{
+    text-align:center;
+}
+/************************************************/
+/************************************************/
+@media (min-width:315px) and (max-width:845px){
+.right-div-containar{
+    display:none;
+}
+    .left-div-containar{
+        width:100%;
+    }
+}
+@media (min-width:847px) and (max-width:1860px){
+    .smartrx-model-div img:nth-child(2) {
+        width: 72%;
+        position: relative;
+        top: -308px;
+        left: 102px;
+        height: 417px;
+    }
+
+    .white-border {
+        width: 72%;
+        height: 15px;
+        background-color: #e4e4e4;
+        position: relative;
+        top: -432px;
+        left: 102px;
+    }
+}
